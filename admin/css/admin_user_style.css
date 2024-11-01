@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  USERS LIST
+\*------------------------------------*/
+
+.swal-gdpr-column,
+.swal-2fa-status-on,
+.swal-2fa-status-off {
+  display: inline-block;
+  background: #41ad49;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+.swal-gdpr-column,
+.swal-2fa-status-on {
+  background: #41ad49;
+  color: #fff;
+}
+.swal-2fa-status-off {
+  background: #eee;
+  color: #a0a0a0;
+}
+.column-user_from {
+  width: 80px;
+}
+.column-user_gdpr_consent {
+  width: 80px;
+}
+.not_active {
+  background: #e5e5e5 !important;
+}

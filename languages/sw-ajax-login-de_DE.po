@@ -1,0 +1,2716 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StranoWeb Ajax Login\n"
+"POT-Creation-Date: 2021-01-11 09:12+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marco <info@lys.it>\n"
+"Language-Team: StranoWeb\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: esc_html_x;__;esc_html__;_e;esc_html_e;_x;esc_html_ex;"
+"_ex\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../sw-ajax-login.php:42
+msgid "Uh Oh!"
+msgstr "Uh, oh!"
+
+#: ../sw-ajax-login.php:42
+#, php-format
+msgid ""
+"It seems you have already installed <strong>StranoWeb Ajax Login Premium</"
+"strong>! If you really want to downgrade to the free version you need to "
+"deactivate and delete the Premium version from the %splugins page%s"
+msgstr ""
+
+#: ../admin/admin-create-pages.php:35
+#: ../admin/sw-ajax-login-admin-menu.php:182
+#: ../includes/class-sw-ajax-login.php:265
+#: ../includes/class-sw-ajax-login.php:273
+#: ../includes/class-sw-ajax-login.php:277
+#: ../includes/functions/functions.php:868
+#: ../includes/functions/functions.php:929
+#: ../templates/sw-ajax-login-forms.php:19
+#: ../templates/sw-ajax-login-forms.php:28
+msgid "Login"
+msgstr "Anmeldung"
+
+#: ../admin/admin-create-pages.php:49 ../includes/functions/functions.php:933
+#: ../templates/sw-ajax-login-forms.php:22
+msgid "Register"
+msgstr "Registrieren"
+
+#: ../admin/admin-create-pages.php:63 ../includes/class-sw-ajax-login.php:754
+#: ../includes/functions/functions.php:937
+#: ../templates/sw-ajax-login-forms.php:25
+msgid "Forgot Password"
+msgstr "Passwort vergessen"
+
+#: ../admin/admin-create-pages.php:77
+#: ../includes/functions/functions-forms.php:1603
+#: ../includes/functions/functions-forms.php:1668
+#: ../includes/functions/functions.php:941
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: ../admin/admin-create-pages.php:91
+#: ../includes/class-sw-ajax-login-custom-nav.php:45
+#: ../includes/class-sw-ajax-login.php:759
+#: ../includes/functions/functions-custom-menu-items.php:15
+#: ../includes/functions/functions-custom-menu-items.php:178
+#: ../includes/functions/functions-custom-menu-items.php:219
+#: ../includes/functions/functions-custom-menu-items.php:345
+#: ../includes/functions/functions-forms.php:1693
+#: ../includes/functions/functions-forms.php:1796
+#: ../includes/functions/functions.php:945
+#: ../includes/functions/functions.php:2027
+#: ../includes/functions/functions.php:2286
+#: ../includes/functions/functions.php:2437
+msgid "Logout"
+msgstr "Abmelden"
+
+#: ../admin/admin-create-pages.php:126
+#, fuzzy
+msgid "Login Page"
+msgstr "Anmeldung"
+
+#: ../admin/admin-create-pages.php:132
+#, fuzzy
+msgid "Register Page"
+msgstr "Registrieren"
+
+#: ../admin/admin-create-pages.php:138
+#, fuzzy
+msgid "Forgot Password Page"
+msgstr "Passwort vergessen"
+
+#: ../admin/admin-create-pages.php:144
+#, fuzzy
+msgid "Reset Password Page"
+msgstr "Passwort zurücksetzen"
+
+#: ../admin/admin-create-pages.php:150
+#, fuzzy
+msgid "Logout Page"
+msgstr "Abmelden"
+
+#: ../admin/sw-ajax-login-admin-advanced.php:54
+#: ../includes/class-sw-ajax-login.php:764
+msgid "Advanced"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:67
+msgid "Disable SWAL nonce"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:73
+msgid ""
+"StranoWeb Ajax Login adds nonce to login, register, forgot password and "
+"change password to increase security. As the nonce is added as a hidden form "
+"element, it will also end up being cached by some caching plugins. This can "
+"cause some issues with nonce verification (403 error on admin-ajax.php)"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:75
+msgid ""
+"Note: WordPress default forms for Login, Register, Forgot Password and "
+"Change Password don't have nonce validation!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:91
+msgid "Force FontAwesome Loading"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:97
+msgid ""
+"StranoWeb Ajax Login checks if FontAwesome is already in use on your site. "
+"If it's not, then it loads it. However with some themes this check fails, "
+"with the result that the icons are not loaded."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:99
+msgid "With this function you can force their loading."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:106
+msgid "Auto Popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:121
+msgid "Enable auto popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:127
+msgid ""
+"Enabling this option the Login popup will auto open if the user isn't logged "
+"in."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:134
+msgid "Delay in opening popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:139
+#, fuzzy
+msgid "Insert delay"
+msgstr "Seite einfügen"
+
+#: ../admin/sw-ajax-login-admin-advanced.php:142
+msgid ""
+"Delay in milliseconds. 1000 = 1s, 0 = no delay. The delay begins when the "
+"page is fully loaded."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:152
+msgid "Auto popup on these pages"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:154
+#: ../admin/sw-ajax-login-admin-apparence.php:173
+#: ../admin/sw-ajax-login-admin-apparence.php:179
+#: ../admin/sw-ajax-login-admin-apparence.php:218
+#: ../admin/sw-ajax-login-admin-apparence.php:224
+#: ../admin/sw-ajax-login-admin-redirects.php:138
+#: ../admin/sw-ajax-login-admin-socials.php:188
+#: ../admin/sw-ajax-login-admin-socials.php:234
+#: ../admin/sw-ajax-login-admin-socials.php:247
+msgid "Available on Premium version"
+msgstr "Verfügbar in der Premium-Version"
+
+#: ../admin/sw-ajax-login-admin-advanced.php:163
+msgid "Need more settings?"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:165
+msgid ""
+"With Premium version you'll get the full control of StranoWeb Ajax Login "
+"with more options to improve speed performance!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-advanced.php:169
+#: ../admin/sw-ajax-login-admin-apparence.php:302
+#: ../admin/sw-ajax-login-admin-emails.php:58
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:59
+#: ../admin/sw-ajax-login-admin-socials.php:339
+#: ../docs/sw-ajax-login-premium.php:208
+msgid "Upgrade to the Premium version"
+msgstr "Zur Premium-Version aufrüsten"
+
+#: ../admin/sw-ajax-login-admin-advanced.php:173
+#: ../admin/sw-ajax-login-admin-apparence.php:291
+#: ../admin/sw-ajax-login-admin-forgot-password.php:124
+#: ../admin/sw-ajax-login-admin-header.php:27
+#: ../admin/sw-ajax-login-admin-login-window.php:147
+#: ../admin/sw-ajax-login-admin-logout-window.php:153
+#: ../admin/sw-ajax-login-admin-menu.php:255
+#: ../admin/sw-ajax-login-admin-redirects.php:202
+#: ../admin/sw-ajax-login-admin-register-window.php:236
+#: ../admin/sw-ajax-login-admin-socials.php:328
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:78
+msgid "Popup apparence"
+msgstr "Aussehen des Pop-ups"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:82
+msgid "Popup layout style"
+msgstr "Layoutstil des Pop-ups"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:88
+msgid "Simple (no image)"
+msgstr "Einfach (kein Bild)"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:89
+msgid "Double column (Image on the left)"
+msgstr "Doppelspalte (Bild auf der linke Seite)"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:97
+msgid ""
+"<span class=\"sw-premium-text\">Premium</span> - Simple (with background "
+"image)"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:98
+#: ../admin/sw-ajax-login-admin-apparence.php:99
+msgid ""
+"<span class=\"sw-premium-text\">Premium</span> - Double column (Image on the "
+"right)"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:100
+msgid ""
+"<span class=\"sw-premium-text\">Premium</span> - Double column (Full "
+"background image, form on left)"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:101
+msgid "<span class=\"sw-premium-text\">Premium</span> - Login & Register tabs"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:102
+msgid ""
+"<span class=\"sw-premium-text\">Premium</span> - Login & Register tabs (with "
+"background image)"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:115
+msgid "Opening animation"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:121
+msgid "Fade"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:122
+msgid "Zoom in"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:123
+msgid "Slide down"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:131
+#, fuzzy
+msgid "More effects available on Premium version"
+msgstr "Verfügbar in der Premium-Version"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:141
+msgid "Customize popup and main overlay"
+msgstr "Pop-up und Hauptbedeckung anpassen"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:143
+msgid "Customize Popup width & color and overlay color & opacity"
+msgstr ""
+"Breite & Farbe des Pop-ups und Farbe & Deckkraft der Bedeckung anpassen"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:148
+msgid "Popup color"
+msgstr "Farbe des Pop-ups"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:153
+#: ../admin/sw-ajax-login-admin-apparence.php:161
+msgid "Popup width"
+msgstr "Breite des Pop-ups"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:171
+msgid "Main overlay color"
+msgstr "Farbe der Hauptbedeckung"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:177
+#: ../admin/sw-ajax-login-admin-apparence.php:269
+#: ../admin/sw-ajax-login-admin-logout-window.php:120
+msgid "Opacity"
+msgstr "Deckkraft"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:187
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:191
+msgid "Text over images color"
+msgstr "Farbe des Texts über den Bildern"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:198
+msgid "Secondary text color"
+msgstr "Sekundärfarbe des Texts"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:205
+msgid "Link color"
+msgstr "Linkfarbe"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:209
+msgid "Buttons color"
+msgstr "Buttonfarbe"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:216
+msgid "Loader background color"
+msgstr "Hintergrundfarbe des Ladebalkens"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:222
+msgid "Loader text color"
+msgstr "Textfarbe des Ladebalkens"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:232
+#, fuzzy
+msgid "Close button position:"
+msgstr "Position der Icons der Sozialen Netzwerke"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:236
+msgid "Inside the popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:237
+msgid "Outside the popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:243
+msgid ""
+"Note: Inside the popup doesn't work on tabs layout where the close button is "
+"always outside the popup."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:258
+msgid "Add image overlay"
+msgstr "Bild-Bedeckung hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:260
+msgid "Overlay is helpfull to make the text more readable"
+msgstr "Eine Bedeckung ist hilfreich, um den Text lesbarer zu machen"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:265
+#: ../admin/sw-ajax-login-admin-logout-window.php:116
+msgid "Overlay color"
+msgstr "Bedeckungsfarbe"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:281
+msgid "Custom CSS"
+msgstr "Individuelles CSS"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:285
+msgid ""
+"You can add additional css here. For security reasons, css comments, @import "
+"and @charset are removed."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-apparence.php:295
+#, fuzzy
+msgid "Different layout models"
+msgstr "Sechs verschiedene Layoutmodelle"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:296
+msgid "Need a different layout for your website or more custom settings?"
+msgstr ""
+"Benötigst du ein anderes Layout für deine Website oder weitere "
+"benutzerdefinierte Einstellungen?"
+
+#: ../admin/sw-ajax-login-admin-apparence.php:298
+msgid ""
+"With Premium version you'll get all the available layouts and all the "
+"StranoWeb Ajax Login features!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:17
+#: ../admin/sw-ajax-login-admin-emails.php:37
+#, fuzzy
+msgid "Emails"
+msgstr "E-Mail-Adresse"
+
+#: ../admin/sw-ajax-login-admin-emails.php:40
+msgid "Design your emails"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:41
+msgid "With"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:41
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:43
+#, fuzzy
+msgid "Stranoweb Ajax Login Premium"
+msgstr "StranoWeb Ajax-Anmeldung Pro"
+
+#: ../admin/sw-ajax-login-admin-emails.php:41
+msgid ""
+"You can easily customize the email notifications received by users on "
+"registration and password recovery."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:42
+msgid "They will perfectly match your website design!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:44
+#, fuzzy
+msgid "Customize email colors and layout"
+msgstr "Bildbedeckung der Abmeldung anpassen"
+
+#: ../admin/sw-ajax-login-admin-emails.php:45
+msgid "Emails content editor"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-emails.php:46
+#, fuzzy
+msgid "Add your logo"
+msgstr "Verknüpfung zu Sozialen Netzwerken hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-emails.php:47
+#, fuzzy
+msgid "Add images"
+msgstr "Bild-Bedeckung hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-emails.php:48
+msgid "Footer content editor"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:54
+msgid "Forgot Password window"
+msgstr "Passwort-vergessen-Fenster"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:58
+msgid "Reset Password confirmation email"
+msgstr "E-Mail der Passwortzurücksetzungs-Bestätigung"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:60
+msgid "Show new password"
+msgstr "Neues Passwort anzeigen"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:63
+msgid ""
+"Upon successful reset password, the user will receive a new password "
+"confirmation email. "
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:64
+msgid ""
+"By enabling this option the new password will be shown on email content."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:73
+msgid "Add icon to email input field"
+msgstr "Icon zum E-Mail-Adresse-Eingabe-Feld hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:75
+msgid ""
+"By enabling this option fontawesome icons will be added to email input field."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:81
+msgid "Forgot password background image"
+msgstr "Hintergrundbild der Passwort-vergessen-Seite"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:87
+#, fuzzy
+msgid ""
+"The image the will appear as background on forgot password popup if you have "
+"chosen the popup layout style with image"
+msgstr ""
+"Questa immagine apparirà come sfondo del popup recupera password se hai "
+"scelto lo stile layout 1"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:91
+#: ../admin/sw-ajax-login-admin-login-window.php:114
+#: ../admin/sw-ajax-login-admin-logout-window.php:95
+#: ../admin/sw-ajax-login-admin-register-window.php:203
+msgid "Background position"
+msgstr "Hintergrund-Position"
+
+#: ../admin/sw-ajax-login-admin-forgot-password.php:103
+#: ../admin/sw-ajax-login-admin-register-window.php:215
+msgid "Register text (optional)"
+msgstr "Registrierungstext (optional)"
+
+#: ../admin/sw-ajax-login-admin-header.php:22
+#, fuzzy
+msgid "StranoWeb Ajax Login - WordPress Plugin"
+msgstr "Strano Web Ajax-Anmeldungs-Einstellungen"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:55
+#: ../includes/class-sw-ajax-login.php:744
+msgid "Login window"
+msgstr "Anmeldefenster"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:58
+msgid "Remember credentials"
+msgstr "Anmeldeinformationen merken"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:63
+msgid "Always"
+msgstr "Immer"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:64
+msgid "Never"
+msgstr "Nie"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:65
+msgid "Show checkbox"
+msgstr "Kontrollkästchen anzeigen"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:72
+msgid ""
+"You can choose if website remembers user's credentials, never or shows a "
+"checkbox to let the user decide."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-login-window.php:78
+msgid "Minimum password length"
+msgstr "Minimale Passwortlänge"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:88
+msgid "Select the minimum password length, 0 means no minimum length required."
+msgstr ""
+"Wähle die minimale Passwortlänge aus, 0 bedeutet, dass keine minimale Länge "
+"vorgegeben ist."
+
+#: ../admin/sw-ajax-login-admin-login-window.php:96
+msgid "Add icons to login input fields"
+msgstr "Icons zu den Anmelde-Eingabefeldern hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:98
+msgid ""
+"By enabling this option fontawesome icons will be added to username and "
+"password input fields."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-login-window.php:104
+msgid "Login background image"
+msgstr "Anmelde-Hintergrundbild"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:110
+#, fuzzy
+msgid ""
+"The image the will appear as background of login popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"Questa immagine apparirà come sfondo del popup login se hai scelto lo stile "
+"layout 1"
+
+#: ../admin/sw-ajax-login-admin-login-window.php:126
+msgid "Login text (optional)"
+msgstr "Anmeldetext (optional)"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:50
+msgid "Do you want to logout?"
+msgstr "Möchtest du dich abmelden?"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:59
+msgid "Logout window"
+msgstr "Abmeldefenster"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:72
+msgid "Logout without confirmation popup"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:78
+msgid ""
+"Enabling this option the popup won't open and the user will be directly "
+"logged out."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:85
+msgid "Logout background image"
+msgstr "Hintergrundbild der Abmeldung"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:91
+#, fuzzy
+msgid ""
+"The image the will appear as background on logout popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"Questa immagine apparirà come sfondo del popup login se hai scelto lo stile "
+"layout 1"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:109
+msgid "Customize logout image overlay"
+msgstr "Bildbedeckung der Abmeldung anpassen"
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:111
+msgid ""
+"By enabling this option you can set a different overlay color and opacity to "
+"logout window"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-logout-window.php:132
+msgid "Logout text (optional)"
+msgstr "Abmeldetext (optional)"
+
+#: ../admin/sw-ajax-login-admin-menu.php:118
+#: ../includes/class-sw-ajax-login.php:729
+msgid "Menu"
+msgstr "Menü"
+
+#: ../admin/sw-ajax-login-admin-menu.php:122
+msgid "Add Login menu item to:"
+msgstr "Anmelde-Punkt im Menü hinzufügen zu:"
+
+#: ../admin/sw-ajax-login-admin-menu.php:161
+#, php-format
+msgid ""
+"This navigation menu has not a menu yet, please go to %s and create one."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-menu.php:161
+msgid "Appearance -> Menus"
+msgstr " Aussehen -> Menüs"
+
+#: ../admin/sw-ajax-login-admin-menu.php:167
+msgid ""
+"Select the menu you want to add the item 'Login'. It's usually the header "
+"menu, but you can select any other menu."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-menu.php:177
+msgid "Login menu text"
+msgstr "Text des Anmeldemenüs"
+
+#: ../admin/sw-ajax-login-admin-menu.php:183
+#: ../includes/functions/functions.php:869
+msgid "Login/Register"
+msgstr "Anmelden/Registrieren"
+
+#: ../admin/sw-ajax-login-admin-menu.php:190
+msgid "Select the text that will appear on the login menu item."
+msgstr "Wählenden Text aus, der im Anmeldemenü angezeigt wird."
+
+#: ../admin/sw-ajax-login-admin-menu.php:196
+msgid "Thumbnail Style"
+msgstr "Miniaturansichts-Stil"
+
+#: ../admin/sw-ajax-login-admin-menu.php:201
+msgid "Don't show thumbnail"
+msgstr "Miniaturansicht nicht anzeigen"
+
+#: ../admin/sw-ajax-login-admin-menu.php:202
+msgid "Squared"
+msgstr "eckig"
+
+#: ../admin/sw-ajax-login-admin-menu.php:203
+msgid "Rounded"
+msgstr "Rund"
+
+#: ../admin/sw-ajax-login-admin-menu.php:210
+msgid ""
+"This is how the user thumbnail will appear on the main menu when the user is "
+"logged"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-menu.php:216
+msgid "Once logged show on main menu:"
+msgstr "Einmal eingeloggt im Hauptmenü anzeigen:"
+
+#: ../admin/sw-ajax-login-admin-menu.php:220
+msgid "Logout link"
+msgstr "Abmelde-Link"
+
+#: ../admin/sw-ajax-login-admin-menu.php:221
+#: ../includes/functions/functions-forms.php:1127
+#: ../includes/functions/functions-forms.php:1129
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../admin/sw-ajax-login-admin-menu.php:222
+msgid "Name Surname"
+msgstr "Name Vorname"
+
+#: ../admin/sw-ajax-login-admin-menu.php:223
+msgid "Surname Name"
+msgstr "Vorname Name"
+
+#: ../admin/sw-ajax-login-admin-menu.php:229
+msgid "Note: if name or surname are not available will display the username."
+msgstr ""
+"Hinweis: Wenn Vor- oder Nachname nicht verfügbar sind, wird der Benutzername "
+"angezeigt."
+
+#: ../admin/sw-ajax-login-admin-menu.php:235
+msgid "Menu item links to:"
+msgstr "Der Menüpunkt verlinkt zu:"
+
+#: ../admin/sw-ajax-login-admin-menu.php:240
+msgid "No link"
+msgstr "Kein Link"
+
+#: ../admin/sw-ajax-login-admin-menu.php:241
+msgid "Custom link"
+msgstr "Individueller Link"
+
+#: ../admin/sw-ajax-login-admin-menu.php:249
+msgid "Insert page"
+msgstr "Seite einfügen"
+
+#: ../admin/sw-ajax-login-admin-menu.php:250
+msgid "If the field is empty no link will be applied to the menu item."
+msgstr "Wenn das Feld leer ist, wird kein Link für den Menüpunkt angewendet."
+
+#: ../admin/sw-ajax-login-admin-messages.php:16
+#: ../admin/sw-ajax-login-admin-messages.php:96
+msgid "Messages"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:100
+#, fuzzy
+msgid "Sending user info"
+msgstr "Sende Benutzer-Informationen, bitte warten..."
+
+#: ../admin/sw-ajax-login-admin-messages.php:108
+#: ../includes/class-sw-ajax-login.php:281
+#, fuzzy
+msgid "Login successful"
+msgstr "Anmeldung erfolgreich, leite weiter..."
+
+#: ../admin/sw-ajax-login-admin-messages.php:116
+#: ../includes/class-sw-ajax-login.php:282
+#, fuzzy
+msgid "Registration successful"
+msgstr "Registrierung"
+
+#: ../admin/sw-ajax-login-admin-messages.php:124
+#, fuzzy
+msgid "Redirecting"
+msgstr "Weiterleitungen"
+
+#: ../admin/sw-ajax-login-admin-messages.php:132
+msgid "Logging out"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:140
+#, fuzzy
+msgid "Authorization failed"
+msgstr "Genehmigung fehlgeschlagen."
+
+#: ../admin/sw-ajax-login-admin-messages.php:148
+#, fuzzy
+msgid "Something went wrong"
+msgstr "Etwas ist falsch gelaufen!"
+
+#: ../admin/sw-ajax-login-admin-messages.php:159
+msgid "User Verification"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:163
+msgid "Verification code is not valid"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:171
+msgid "User verification success"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:179
+msgid "User already verified"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:187
+msgid "Can't verify the account"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:201
+msgid "Two-Factor Authentication"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:205
+#: ../includes/class-sw-ajax-login.php:288
+msgid "2FA Code"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-messages.php:213
+#: ../includes/class-sw-ajax-login.php:289
+msgid "Back"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:52
+#, fuzzy
+msgid "Custom pages"
+msgstr "Individuelle Seite"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:58
+msgid ""
+"StranoWeb Ajax Login will automatically create login, register, forgot "
+"password, reset password and logout pages. You can modify these pages "
+"according to your needs."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:64
+msgid "Please read carefully"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:65
+msgid ""
+"StranoWeb Ajax Login have created all the necessary login, register, forgot "
+"password, reset password and logout pages."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:68
+msgid ""
+"You can modify these pages according to your needs, just be sure \"login page"
+"\" contains one of the two SWAL Login shortcodes, otherwise you won't be "
+"able to login to your website!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:71
+msgid ""
+"We suggest during test phase to work with 2 different browsers and stay "
+"logged on one of them while you are working on the other one."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:77
+#, fuzzy
+msgid "Login page"
+msgstr "Anmeldung"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:87
+#: ../admin/sw-ajax-login-admin-permalinks.php:104
+#: ../admin/sw-ajax-login-admin-permalinks.php:121
+#: ../admin/sw-ajax-login-admin-permalinks.php:138
+#: ../admin/sw-ajax-login-admin-permalinks.php:155
+#: ../admin/sw-ajax-login-admin-register-window.php:162
+msgid "--- None ---"
+msgstr "--- Keine ---"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:94
+#, fuzzy
+msgid "Register page"
+msgstr "Registrieren"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:111
+#, fuzzy
+msgid "Forgot password page"
+msgstr "Passwort vergessen"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:128
+#, fuzzy
+msgid "Reset password page"
+msgstr "Passwort zurücksetzen"
+
+#: ../admin/sw-ajax-login-admin-permalinks.php:145
+#, fuzzy
+msgid "Logout page"
+msgstr "Abmelden"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:55
+msgid "Add reCAPTCHA"
+msgstr "ReCAPTCHA hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:57
+msgid ""
+"reCAPTCHA helps to avoid spam users registration, we reccomend to use it."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:64
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:65
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:77
+msgid "v2 Website Key"
+msgstr "v2 Website-Schlüssel"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:81
+msgid "v2 Secret Key"
+msgstr "v2 Geheimschlüssel"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:85
+#, fuzzy
+msgid "Theme"
+msgstr "Theme 4"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:89
+msgid "Light"
+msgstr "Licht"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:90
+msgid "Dark"
+msgstr "Dunkel"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:101
+msgid "v3 Website Key"
+msgstr "v3 Website-Schlüssel"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:105
+msgid "v3 Secret Key"
+msgstr "v3 Geheimschlüssel"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:109
+msgid "Threshold"
+msgstr "Schwelle"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:115
+msgid ""
+"Lower than 0.5 = Easier for bots to register, Higher than 0.5 = harder for "
+"bots, but may block some real users. We suggest to leave at 0.5 then check "
+"your Google console for fine tuning."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:121
+msgid "How to get reCaptcha keys"
+msgstr "Wie man reCaptcha-Schlüssel erhält"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:125
+msgid "Login into your Google account and go to "
+msgstr "Melde dich in dein Google-Konto ein und gehe zu"
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:127
+msgid "Find and click the 'Get Recaptcha' button in the upper-right corner."
+msgstr ""
+"Suche und klicke auf die Schaltfläche ‚reCaptcha erhalten‘ in der oberen "
+"rechten Ecke."
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:128
+msgid ""
+"In the 'Register a new site' section, enter a label in the 'Label' box, and "
+"the URL for your site, without with http://. E.X. – example.com in the "
+"Domains box. Click the Register button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-recaptcha.php:129
+msgid ""
+"You should now see your new site key and secret key. Copy and add to the "
+"settings above."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:62
+msgid "Redirects"
+msgstr "Weiterleitungen"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:65
+msgid "After login redirect to:"
+msgstr "Nach der Anmeldung weiterleiten zu:"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:70
+#: ../admin/sw-ajax-login-admin-redirects.php:93
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:71
+#: ../admin/sw-ajax-login-admin-redirects.php:94
+msgid "Same page"
+msgstr "Gleiche Seite"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:72
+#: ../admin/sw-ajax-login-admin-redirects.php:95
+msgid "Custom page"
+msgstr "Individuelle Seite"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:73
+msgid "Admin dashboard"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:81
+#: ../admin/sw-ajax-login-admin-redirects.php:103
+#: ../admin/sw-ajax-login-admin-redirects.php:125
+msgid "Insert page to redirect"
+msgstr "Seite zur Weiterleitung hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:82
+#: ../admin/sw-ajax-login-admin-redirects.php:104
+#: ../admin/sw-ajax-login-admin-redirects.php:127
+msgid "If the field is empty the user will be redirected to the homepage."
+msgstr "Wenn das Feld leer ist, wird der Benutzer zur Homepage weitergeleitet."
+
+#: ../admin/sw-ajax-login-admin-redirects.php:88
+msgid "After logout redirect to:"
+msgstr "Nach der Abmeldung weiterleiten zu:"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:110
+msgid "Login page -> If already logged in:"
+msgstr "Anmeldeseite -> wenn bereits angemeldet:"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:115
+msgid "Show \"User already logged in\" message"
+msgstr "„Benutzer ist bereits angemeldet“-Nachricht anzeigen"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:116
+msgid "Redirect to homepage"
+msgstr "Weiterleitung zur Homepage"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:117
+msgid "Redirect to custom page"
+msgstr "Weiterleiten zu einer individuellen Seite"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:127
+msgid ""
+"You can set up the action to do if an already logged in user lands on Login, "
+"Register or Forgot Password page."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:132
+msgid "WordPress admin dashboard access"
+msgstr "Zugriff auf das WordPress-Verwaltungs-Dashboard"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:144
+msgid "Permalink"
+msgstr "Permalink"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:148
+msgid ""
+"Your permalink structure contains /index.php. It’s not search engine "
+"friendly & you are missing out the opportunity to rank higher in the search "
+"engine. We reccomend to remove it."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:150
+#, php-format
+msgid ""
+"To fix it go to %s and click on Post name & save the permalink structure."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:150
+msgid "Settings> Permalink"
+msgstr "Einstellungen> Permalink"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:154
+msgid ""
+"SWAL replaces WordPress default login, registration and forgot password "
+"pages with its own modules. All SWAL ajax pages are also accessible via "
+"direct URL, you can customize the base to suit your needs."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:159
+msgid "Links to forms are: "
+msgstr "Die gebildeten Links sind:"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:162
+msgid "You must assign the Login page!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:163
+msgid "You must assign the Register page!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:164
+msgid "You must assign the Forgot Password page!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:165
+msgid "You must assign the Reset Password page!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:166
+msgid "You must assign the Logout page!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-redirects.php:174
+msgid "Default"
+msgstr "Standard"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:184
+msgid "Custom base"
+msgstr "Individuelle Basis"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:188
+msgid "Insert base"
+msgstr "Basis einfügen"
+
+#: ../admin/sw-ajax-login-admin-redirects.php:189
+msgid "If the field is empty it will use the default permalink."
+msgstr "Wenn das Feld leer ist, wird der Standard-Permalink genutzt."
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:39
+#, fuzzy
+msgid "Registration form fields"
+msgstr "Registrierung"
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:42
+#, fuzzy
+msgid "Build your registration form"
+msgstr "Option der Registrierung von neuen Benutzern verbieten"
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:43
+msgid "provides a drag & drop system to easily build your register form."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:46
+msgid "Different type of fields"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:47
+msgid "Data validation"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:48
+msgid "Minimum user age control"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-fields-free.php:49
+#, fuzzy
+msgid "WooCommerce fields integration"
+msgstr "Formularfelder-Validierung"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:69
+#: ../includes/class-sw-ajax-login.php:749
+msgid "Register window"
+msgstr "Registrierungsfenster"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:75
+msgid "Anyone can register"
+msgstr "Jeder kann sich registrieren"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:77
+msgid "By checking this option you enable new users registering on your site."
+msgstr ""
+"Durch Aktivieren dieser Option aktivierst du die Registrierung neuer "
+"Benutzer auf deiner Website."
+
+#: ../admin/sw-ajax-login-admin-register-window.php:88
+msgid "Form type"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:91
+#, fuzzy
+msgid "Show the input password fields"
+msgstr "Neues Passwort anzeigen"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:92
+msgid ""
+"Don't show the input password fields, password will be automatically "
+"generated and sent on email"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:103
+#, fuzzy
+msgid "Registration instruction"
+msgstr "Registrierung"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:105
+#, fuzzy
+msgid "Insert here what user will receive after registration."
+msgstr "reCaptcha für die Registrierung neuer Benutzer"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:122
+#, fuzzy
+msgid "Don't send email to user after registration"
+msgstr "reCaptcha für die Registrierung neuer Benutzer"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:124
+msgid ""
+"By enabling this option users won't receive the confirmation email from our "
+"plugin, this can be usefull if you are using a third party plugin for new "
+"user activation."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:132
+#: ../admin/sw-ajax-login-admin-user.php:40
+msgid "GDPR consent"
+msgstr "DSGVO-Zustimmung"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:136
+msgid "Add GDPR consent checkbox"
+msgstr "DSGVO-Checkbox hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:138
+msgid ""
+"This option adds a mandatory checkbox for GDPR consent with a link to Terms "
+"& Conditions page."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:144
+#, fuzzy
+msgid "GDPR consent text"
+msgstr "DSGVO-Zustimmung"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:146
+msgid "Insert here the text to get user consent on form submition."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:152
+msgid "Privacy page"
+msgstr "Datenschutzseite"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:167
+msgid "A link to privacy page will be appended to the consent message."
+msgstr ""
+"Ein Link zur Datenschutzseite wird an die Zustimmungsnachricht angehängt."
+
+#: ../admin/sw-ajax-login-admin-register-window.php:170
+msgid "Link text"
+msgstr "Linktext"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:172
+msgid ""
+"Insert here privacy link text if you want it different from the page name."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:181
+#, fuzzy
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:185
+msgid "Add icons to registration input fields"
+msgstr "Icons zu den Registrierungs-Eingabe-Feldern hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:187
+msgid ""
+"By enabling this option fontawesome icons will be added to new user "
+"registration input fields."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-register-window.php:193
+msgid "Register background image"
+msgstr "Hintergrundbild der Registrierung"
+
+#: ../admin/sw-ajax-login-admin-register-window.php:199
+#, fuzzy
+msgid ""
+"The image the will appear as background on register popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"Questa immagine apparirà come sfondo del popup registrazione se hai scelto "
+"lo stile layout 1"
+
+#: ../admin/sw-ajax-login-admin-settings.php:17
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: ../admin/sw-ajax-login-admin-settings.php:54
+msgid "StranoWeb Ajax Login settings"
+msgstr "Strano Web Ajax-Anmeldungs-Einstellungen"
+
+#: ../admin/sw-ajax-login-admin-settings.php:66
+#: ../includes/class-sw-ajax-login.php:718
+msgid "Premium Version"
+msgstr "Premium-Version"
+
+#: ../admin/sw-ajax-login-admin-settings.php:68
+#: ../docs/sw-ajax-login-docs.php:18 ../docs/sw-ajax-login-docs.php:28
+#: ../docs/sw-ajax-login-premium.php:10 ../docs/sw-ajax-login-premium.php:82
+#: ../includes/class-sw-ajax-login.php:720
+msgid "Features"
+msgstr "Funktionen"
+
+#: ../admin/sw-ajax-login-admin-socials.php:68
+#, fuzzy
+msgid "Login into your Fb account and go to "
+msgstr "Melde dich in dein Google-Konto ein und gehe zu"
+
+#: ../admin/sw-ajax-login-admin-socials.php:69
+#: ../admin/sw-ajax-login-admin-socials.php:80
+#: ../admin/sw-ajax-login-admin-socials.php:214
+msgid ""
+"Click on 'Add a New App' button. A popup will open. Enter the name of the "
+"app as you wish and your email, then click on 'Create New App ID' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:70
+#, php-format
+msgid "You'll be redirected to the next page 'Select a product', choose %s."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:71
+#, php-format
+msgid "You have now to select the App platform, please click on %s."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:72
+#, php-format
+msgid ""
+"Enter this website URL (see point 9 below) and click %s, ignore the "
+"following steps."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:73
+#, php-format
+msgid "Click on %s on the left column menu."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:74
+msgid ""
+"In the landing page you will find the API version, App ID, App Secret. Copy "
+"the App ID and App Secret Key (click on 'Show' button) and enter them in our "
+"plugin settings above."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:75
+#: ../admin/sw-ajax-login-admin-socials.php:85
+#: ../admin/sw-ajax-login-admin-socials.php:219
+msgid "Important: "
+msgstr "Wichtig:"
+
+#: ../admin/sw-ajax-login-admin-socials.php:75
+msgid ""
+"After that please go to 'App Review' link just below the alert link on the "
+"left column, there you will find an option to make the app public and select "
+"YES. This is very important otherwise your app will not work for all users."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:76
+#: ../admin/sw-ajax-login-admin-socials.php:82
+#: ../admin/sw-ajax-login-admin-socials.php:216
+msgid "Site URL"
+msgstr "Website-URL"
+
+#: ../admin/sw-ajax-login-admin-socials.php:79
+#: ../admin/sw-ajax-login-admin-socials.php:212
+msgid "Login into your Twitter account and go to "
+msgstr "Melde dich in dein Twitter-Konto ein und gehe zu"
+
+#: ../admin/sw-ajax-login-admin-socials.php:81
+#: ../admin/sw-ajax-login-admin-socials.php:215
+msgid ""
+"Enter your desired Application Name, Description and your website address "
+"(points 4 & 5) making sure to enter the full address including the http:// "
+"or https://."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:83
+#: ../admin/sw-ajax-login-admin-socials.php:217
+msgid "Callback URL"
+msgstr "Callback-URL"
+
+#: ../admin/sw-ajax-login-admin-socials.php:84
+#: ../admin/sw-ajax-login-admin-socials.php:218
+msgid ""
+"After creating your Twitter Application click on the tab that says 'Keys and "
+"Access Tokens' and get Consumer key(API Key) and Consumer secret(API secret)."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:85
+msgid ""
+"To get the user's email address please go to app's 'permission' tab and in "
+"additional Permissions there you will find a checkbox to request for user "
+"email address. Please enable it. To enable it you need to enter privacy "
+"policy url and terms of service url."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:86
+#, fuzzy
+msgid "Important 2: "
+msgstr "Wichtig:"
+
+#: ../admin/sw-ajax-login-admin-socials.php:86
+msgid ""
+"Go to app's 'Settings' tab and make sure that the checkbox 'Enable Callback "
+"Locking' is unchecked."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:89
+#, php-format
+msgid "Login to your %s"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:90
+msgid ""
+"From the project drop-down, select an existing project , or create a new one "
+"by selecting 'Create a new project'. "
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:91
+msgid ""
+"In the sidebar under 'APIs & Services', select 'Credentials', then select "
+"the OAuth consent screen tab."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:92
+msgid ""
+"Choose an Email Address, specify a Product Name. In the Authorized domains, "
+"specify the domains which will be allowed to authenticate using OAuth and "
+"press Save."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:93
+msgid ""
+"In the 'Credentials' tab, select the 'New credentials' drop-down list, and "
+"choose 'OAuth client ID'."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:94
+msgid ""
+"Under Application type, select 'Web application' and In the 'Authorized "
+"JavaScript origins' and 'Authorized redirect URI' fields, enter the origin "
+"for your app as follows:"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:95
+msgid "Authorized JavaScript origins"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:96
+msgid "Authorized redirect URI"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:97
+msgid "Press the 'Create' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:98
+msgid ""
+"From the resulting 'OAuth client' dialog box, copy the 'Client ID' and "
+"'Client secret'."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:101
+#, fuzzy
+msgid "Login into your Linkedin account and go to "
+msgstr "Melde dich in dein Twitter-Konto ein und gehe zu"
+
+#: ../admin/sw-ajax-login-admin-socials.php:102
+msgid ""
+"If you have an existing application, select it to modify its settings, or "
+"create a new one by clicking 'Create Application'. "
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:103
+msgid "Fill all the compulsory fields, then click on 'Submit' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:104
+msgid ""
+"On the new page 'Authentication' copy the Authentication Keys 'Client ID' "
+"and 'Client Secret' and add them to our plugin settings."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:105
+msgid ""
+"In 'Default Application Permissions' section check 'r_basicprofile' and "
+"'r_emailaddress'."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:106
+msgid ""
+"in 'OAuth 2.0' section add to 'Authorized Redirect URLs:' the URL you see at "
+"point 7."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:107
+msgid "Authorized redirect URLs"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:108
+msgid "Press the 'Update' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:111
+msgid "Login into your security profile in the Amazon Developer Console "
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:112
+msgid ""
+"You will be asked to login to the Developer Console, which handles "
+"application registration for Login with Amazon. If this is your first time "
+"using the Developer Console, you will be asked to set up an account."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:113
+msgid ""
+"Click Create a New Security Profile. This will take you to the Security "
+"Profile Management page."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:114
+msgid ""
+"Enter a Name and a Description for your security profile and fill all the "
+"other fields, then click on 'Save' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:115
+msgid ""
+"Go to the Web Settings of the security profile that you want to use for your "
+"app."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:116
+msgid ""
+"Locate the security profile you want to modify from the table and click on "
+"it."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:117
+msgid "Hover over the Manage menu and Select the Web Settings menu item."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:118
+msgid "Click Edit button you'll find at the bottom."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:119
+msgid ""
+"To use Login with Amazon with a website, you must specify either Allowed "
+"Origins and Allowed Return URLs."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:120
+msgid "Copy and paste this URL on both fields"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:121
+msgid "Press the 'Save' button."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:131
+msgid "Login via Socials"
+msgstr "Anmeldung mit Sozialen Netzwerken"
+
+#: ../admin/sw-ajax-login-admin-socials.php:137
+msgid "Add socials login"
+msgstr "Verknüpfung zu Sozialen Netzwerken hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-socials.php:139
+msgid "This option enables login via socials."
+msgstr "Diese Option aktiviert die Anmeldung durch Soziale Netzwerke."
+
+#: ../admin/sw-ajax-login-admin-socials.php:146
+msgid "Social Icons position"
+msgstr "Position der Icons der Sozialen Netzwerke"
+
+#: ../admin/sw-ajax-login-admin-socials.php:151
+msgid "Below login button"
+msgstr "Unterhalb des Anmeldebuttons"
+
+#: ../admin/sw-ajax-login-admin-socials.php:152
+msgid "On top, before username and password fields"
+msgstr "Obenauf, vor den Benutzername- und Passwort-Feldern"
+
+#: ../admin/sw-ajax-login-admin-socials.php:153
+msgid "Between username and password fields and login button"
+msgstr "Zwischen den Benutzername- und Passwortfeldern und dem Anmeldebutton"
+
+#: ../admin/sw-ajax-login-admin-socials.php:154
+msgid "Inside image container"
+msgstr "Innerhalb des Bild-Containers"
+
+#: ../admin/sw-ajax-login-admin-socials.php:161
+msgid ""
+"This option set the position of social login icons, below login button, "
+"below input fields or inside the image container."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:173
+msgid "Replace Avatar image with social profile picture"
+msgstr "Avatar-Bild mit Profilbild aus Sozialem Netzwerk ersetzen"
+
+#: ../admin/sw-ajax-login-admin-socials.php:175
+msgid ""
+"By enabling this option Social profile picture will be shown instead of "
+"WordPress user avatar."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:184
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin/sw-ajax-login-admin-socials.php:197
+#: ../docs/sw-ajax-login-premium.php:120
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../admin/sw-ajax-login-admin-socials.php:200
+msgid "Twitter App ID"
+msgstr "Twitter App-ID"
+
+#: ../admin/sw-ajax-login-admin-socials.php:204
+msgid "Twitter App Secret"
+msgstr "Twitter App-Secret"
+
+#: ../admin/sw-ajax-login-admin-socials.php:208
+msgid "How to get Twitter API keys"
+msgstr "Wie man Twitter-API-Schlüssel erhält"
+
+#: ../admin/sw-ajax-login-admin-socials.php:219
+msgid ""
+"To get the user's email address please go to app's permission tab and in "
+"additional Permissions there you will find a checkbox to request for user "
+"email address. Please enable it. To enable it you need to enter privacy "
+"policy url and terms of service url."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:230
+msgid "Google"
+msgstr "Google"
+
+#: ../admin/sw-ajax-login-admin-socials.php:243
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: ../admin/sw-ajax-login-admin-socials.php:261
+msgid "Add to WooCommerce login form"
+msgstr "Zum WooCommerce-Anmeldeformular hinzufügen"
+
+#: ../admin/sw-ajax-login-admin-socials.php:263
+msgid ""
+"This option adds Stranoweb Ajax Login native social login buttons to "
+"WooCommerce login form"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:269
+msgid "Icons theme"
+msgstr "Icons-Theme"
+
+#: ../admin/sw-ajax-login-admin-socials.php:272
+msgid "Theme 4"
+msgstr "Theme 4"
+
+#: ../admin/sw-ajax-login-admin-socials.php:273
+msgid "Theme 5"
+msgstr "Theme 5"
+
+#: ../admin/sw-ajax-login-admin-socials.php:285
+msgid "Login with Facebook"
+msgstr "Anmelden mit Facebook"
+
+#: ../admin/sw-ajax-login-admin-socials.php:294
+msgid "Login with Twitter"
+msgstr "Anmelden mit Twitter"
+
+#: ../admin/sw-ajax-login-admin-socials.php:303
+msgid "Login with Google"
+msgstr "Anmelden mit Google"
+
+#: ../admin/sw-ajax-login-admin-socials.php:312
+msgid "Login with Linkedin"
+msgstr "Anmelden mit LinkedIn"
+
+#: ../admin/sw-ajax-login-admin-socials.php:332
+msgid "Want more social logins?"
+msgstr "Möchtest du mehr Verknüpfungen zu Sozialen Netzwerken haben?"
+
+#: ../admin/sw-ajax-login-admin-socials.php:333
+msgid ""
+"Social Login makes it easier for visitors to your site to become customers "
+"by using their existing social media credentials to register on your site."
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-socials.php:335
+msgid ""
+"With Premium version you'll get more social logins and all the StranoWeb "
+"Ajax Login features!"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-user.php:45
+msgid "User gives GDPR consent"
+msgstr "Benutzer gibt die DSGVO-Zustimmung"
+
+#: ../admin/sw-ajax-login-admin-user.php:47
+msgid "User doesn't give GDPR consent"
+msgstr "Benutzer gibt die DSGVO-Zustimmung nicht"
+
+#: ../admin/sw-ajax-login-admin-user.php:65
+#, fuzzy
+msgid "Registered"
+msgstr "Registrieren"
+
+#: ../admin/sw-ajax-login-admin-user.php:66
+msgid "From"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-user.php:67
+msgid "Consent"
+msgstr "Zustimmung"
+
+#: ../admin/sw-ajax-login-admin-user.php:90
+msgid "GDPR"
+msgstr "DSGVO"
+
+#: ../admin/sw-ajax-login-admin-user.php:177
+#: ../includes/class-sw-ajax-login.php:484
+msgid "Deactivate"
+msgstr ""
+
+#: ../admin/sw-ajax-login-admin-user.php:183
+#: ../includes/class-sw-ajax-login.php:483
+msgid "Activate"
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:15
+msgid "StranoWeb Ajax Login Documentation"
+msgstr "Dokumentation der StranoWeb Ajax Anmeldung"
+
+#: ../docs/sw-ajax-login-docs.php:19 ../docs/sw-ajax-login-docs.php:51
+msgid "How to"
+msgstr "Wie man"
+
+#: ../docs/sw-ajax-login-docs.php:20 ../docs/sw-ajax-login-docs.php:61
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: ../docs/sw-ajax-login-docs.php:30
+msgid ""
+"is a modal popup (but not only) that replaces the default WordPress login, "
+"register and lost password forms and comes with a lot of amazing features:"
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:32
+msgid ""
+"Ajax modal popup for login, register, lost password and logout. Same "
+"functions are working even on non-popup mode and without javascript."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:33
+msgid "Fully customizable login, register, lost password and logout popups."
+msgstr ""
+"Vollständig anpassbare Pop-ups für die Anmeldung, die Registrierung, "
+"Passwort-vergessen und die Abmeldung."
+
+#: ../docs/sw-ajax-login-docs.php:34
+msgid "Form fields validation."
+msgstr "Formularfelder-Validierung"
+
+#: ../docs/sw-ajax-login-docs.php:35
+msgid ""
+"Different popup layouts with image and text over image (more layouts to "
+"come)."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:36
+msgid "Optional custom css setting."
+msgstr "Optionale, individuelle CSS-Einstellung."
+
+#: ../docs/sw-ajax-login-docs.php:37
+msgid ""
+"Social logins (facebook, twitter and google+, more to come) with several "
+"icon styles and position displacement."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:38
+msgid ""
+"Logged in Menu item: Once the user is logged in the plugin adds a menu item "
+"to the selected menu with optional user thumbnail and additional submenu. "
+"Thumbnail style, menu item text and submenu are fully customizable."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:39
+msgid "Customizable redirects and permalink."
+msgstr "Weiterleitungen und Permalinks anpassen."
+
+#: ../docs/sw-ajax-login-docs.php:40
+msgid ""
+"WordPress admin dashboard access restriction to users with specific roles."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:41
+msgid "Password length, you can choose the minimum length required."
+msgstr "Passwortlänge, du kannst die minimale erforderliche Länge auswählen "
+
+#: ../docs/sw-ajax-login-docs.php:42
+msgid "Optional reCaptcha for new user registration form."
+msgstr "Optionales reCaptcha des Registrierungsformulars für neue Benutzer."
+
+#: ../docs/sw-ajax-login-docs.php:43
+msgid "New user registration can be disabled."
+msgstr "Die Registrierung neuer Benutzer kann deaktiviert werden."
+
+#: ../docs/sw-ajax-login-docs.php:44
+msgid "Styled Forgot password email."
+msgstr "Angepasste Passwort-vergessen-E-Mail."
+
+#: ../docs/sw-ajax-login-docs.php:54
+#, php-format
+msgid "For the full 'How to' guide please visit %s."
+msgstr "Für den gesamten \"Wie man\"-Guide, besuche bitte %s."
+
+#: ../docs/sw-ajax-login-docs.php:63
+msgid ""
+"StranoWeb Ajax Login comes with several shortcodes that can be used to "
+"insert content inside posts and pages."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:64
+msgid "You will find a dropdown list on the text editor."
+msgstr ""
+
+#: ../docs/sw-ajax-login-docs.php:66
+#, fuzzy, php-format
+msgid "For the full Shortcodes list please visit %s."
+msgstr "Für den gesamten \"Wie man\"-Guide, besuche bitte %s."
+
+#: ../docs/sw-ajax-login-premium.php:8
+msgid "Premium Features"
+msgstr "Premium-Funktionen"
+
+#: ../docs/sw-ajax-login-premium.php:17
+msgid "Fully customizable responsive popups"
+msgstr "Vollständig anpassbare, responsive Pop-ups"
+
+#: ../docs/sw-ajax-login-premium.php:18
+msgid "Stranoweb Ajax Login Pro"
+msgstr "StranoWeb Ajax-Anmeldung Pro"
+
+#: ../docs/sw-ajax-login-premium.php:18
+msgid ""
+"replaces the default WordPress login, register and lost password forms with "
+"beautiful ajax modal popups and comes with a lot of amazing features.\n"
+"It’s fully customizable, responsive, includes several social logins and "
+"allows to disable new user registration or restrict WordPress admin "
+"dashboard to certain user rules."
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:28
+msgid "Several different layout models"
+msgstr "Mehrere, verschiedene Layoutmodelle"
+
+#: ../docs/sw-ajax-login-premium.php:29
+msgid ""
+"You can customize your forms as you like adding images, changing background, "
+"text and buttons color, and if you're one who likes to get your hands dirty "
+"you can add your custom css."
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:38
+msgid "Improve customer acquisition with social logins"
+msgstr "Verbessere den Kunden-Zugang durch Anmelden durch Soziale Netzwerke"
+
+#: ../docs/sw-ajax-login-premium.php:39
+msgid ""
+"Social Login makes it easier for visitors to your site to become customers "
+"by using their existing social media credentials to register on your site. "
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:40
+msgid ""
+"With Stranoweb Ajax Login, you can easily add some of the most popular "
+"social logins to login form, even on WooCommerce login form."
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:49
+msgid "Restrict access to WordPress admin dashboard"
+msgstr "Beschränkt den Zugriff auf das WordPress-Verwaltungs-Dashboard"
+
+#: ../docs/sw-ajax-login-premium.php:50
+msgid ""
+"On some websites you may want that only users with specific roles can access "
+"to the WordPress Admin Dashboard; with Stranoweb Ajax Login WordPress Plugin "
+"you can easily manage who can access to the dashboard."
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:59
+msgid "Create a custom submenu for logged in users"
+msgstr "Erstelle ein individuelles Untermenü für angemeldete Benutzer"
+
+#: ../docs/sw-ajax-login-premium.php:60
+msgid ""
+"With StranoWeb Ajax Login you can add your custom submenu to the user menu "
+"item, very usefull when you want to group all the user related links in one "
+"place. The logout item will be automatically added as the last submenu item."
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:88
+msgid "Free"
+msgstr "Kostenlos"
+
+#: ../docs/sw-ajax-login-premium.php:89
+msgid "Premium"
+msgstr "Premium"
+
+#: ../docs/sw-ajax-login-premium.php:94
+msgid "Ajax modal popup for login, registration, forgot password and logout"
+msgstr ""
+"modales Ajax-Pop-up für die Anmeldung, zur Registrierung, für die Passwort-"
+"vergessen-Seite und die Abmeldung"
+
+#: ../docs/sw-ajax-login-premium.php:95 ../docs/sw-ajax-login-premium.php:96
+#: ../docs/sw-ajax-login-premium.php:100 ../docs/sw-ajax-login-premium.php:101
+#: ../docs/sw-ajax-login-premium.php:110 ../docs/sw-ajax-login-premium.php:111
+#: ../docs/sw-ajax-login-premium.php:115 ../docs/sw-ajax-login-premium.php:116
+#: ../docs/sw-ajax-login-premium.php:130 ../docs/sw-ajax-login-premium.php:131
+#: ../docs/sw-ajax-login-premium.php:135 ../docs/sw-ajax-login-premium.php:136
+#: ../docs/sw-ajax-login-premium.php:140 ../docs/sw-ajax-login-premium.php:141
+#: ../docs/sw-ajax-login-premium.php:145 ../docs/sw-ajax-login-premium.php:146
+#: ../docs/sw-ajax-login-premium.php:150 ../docs/sw-ajax-login-premium.php:151
+#: ../docs/sw-ajax-login-premium.php:156 ../docs/sw-ajax-login-premium.php:161
+#: ../docs/sw-ajax-login-premium.php:166 ../docs/sw-ajax-login-premium.php:171
+#: ../docs/sw-ajax-login-premium.php:176 ../docs/sw-ajax-login-premium.php:181
+#: ../docs/sw-ajax-login-premium.php:186 ../docs/sw-ajax-login-premium.php:191
+#: ../docs/sw-ajax-login-premium.php:196 ../docs/sw-ajax-login-premium.php:201
+msgid "Yes"
+msgstr "Ja"
+
+#: ../docs/sw-ajax-login-premium.php:99
+msgid "Form fields validation"
+msgstr "Formularfelder-Validierung"
+
+#: ../docs/sw-ajax-login-premium.php:104
+msgid "Popup layouts"
+msgstr "Pop-up-Layouts"
+
+#: ../docs/sw-ajax-login-premium.php:109
+msgid "GDPR compliant"
+msgstr "DSGVO-Zustimmung"
+
+#: ../docs/sw-ajax-login-premium.php:114
+msgid "Customizable CSS"
+msgstr "Anpassbare CSS"
+
+#: ../docs/sw-ajax-login-premium.php:119
+msgid "Social logins"
+msgstr "Verknüpfung mit Sozialen Netzwerken"
+
+#: ../docs/sw-ajax-login-premium.php:121
+#, fuzzy
+msgid "Facebook, Twitter, Google, Linkedin"
+msgstr "Facebook, Twitter, Google+, LinkedIn"
+
+#: ../docs/sw-ajax-login-premium.php:124
+msgid "Social icons themes"
+msgstr "Icons-Themes der Sozialen Netzwerke"
+
+#: ../docs/sw-ajax-login-premium.php:129
+msgid "Customizable redirects and permalink"
+msgstr "Anpassbare Weiterleitungen und anpassbarer Permalink"
+
+#: ../docs/sw-ajax-login-premium.php:134
+#, fuzzy
+msgid "reCAPTCHA v2 and reCAPTCHA v3 for new user registration"
+msgstr "reCaptcha für die Registrierung neuer Benutzer"
+
+#: ../docs/sw-ajax-login-premium.php:139
+msgid "Shortcode support on text editors"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:144
+msgid "Styled emails"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:149
+#, fuzzy
+msgid "Disallow new user registration"
+msgstr "Option der Registrierung von neuen Benutzern verbieten"
+
+#: ../docs/sw-ajax-login-premium.php:154
+msgid "Drag & Drop Register form builder"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:155 ../docs/sw-ajax-login-premium.php:160
+#: ../docs/sw-ajax-login-premium.php:165 ../docs/sw-ajax-login-premium.php:170
+#: ../docs/sw-ajax-login-premium.php:175 ../docs/sw-ajax-login-premium.php:180
+#: ../docs/sw-ajax-login-premium.php:185 ../docs/sw-ajax-login-premium.php:190
+#: ../docs/sw-ajax-login-premium.php:195 ../docs/sw-ajax-login-premium.php:200
+msgid "No"
+msgstr "Nein"
+
+#: ../docs/sw-ajax-login-premium.php:159
+msgid "Emails editor"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:164
+msgid "Custom overlay"
+msgstr "Individuelle Bedeckung"
+
+#: ../docs/sw-ajax-login-premium.php:169
+msgid "Logo upload"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:174
+msgid "Custom login menu item text"
+msgstr "Menüüpunkt-Text der individuellen Anmeldung"
+
+#: ../docs/sw-ajax-login-premium.php:179
+#, fuzzy
+msgid "Customizable texts"
+msgstr "Anpassbare CSS"
+
+#: ../docs/sw-ajax-login-premium.php:184
+msgid "Option to redirect not logged in users to login form"
+msgstr ""
+
+#: ../docs/sw-ajax-login-premium.php:189
+msgid "WordPress admin dashboard restriction"
+msgstr "Beschränkung des WordPress-Verwaltungs-Dashboard"
+
+#: ../docs/sw-ajax-login-premium.php:194
+#, fuzzy
+msgid "Show/Hide password icon"
+msgstr "Neues Passwort anzeigen"
+
+#: ../docs/sw-ajax-login-premium.php:199
+#, fuzzy
+msgid "Disable automatic login for new user after registration"
+msgstr "reCaptcha für die Registrierung neuer Benutzer"
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:32
+#, fuzzy
+msgid "SW Ajax Login endpoints"
+msgstr "SW Ajax-Anmeldung Benutzermenü"
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:53
+#, fuzzy
+msgid "Login Link"
+msgstr "Anmeldefenster"
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:62
+#, fuzzy
+msgid "Register Link"
+msgstr "Registrierungsfenster"
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:71
+#, fuzzy
+msgid "Logout Link"
+msgstr "Abmelde-Link"
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:81
+msgid ""
+"- All the menu items added as 'Login Link' submenu will be only visible to "
+"logged in users."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:82
+msgid "- 'Register Link' is only visible to NOT logged in users."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:83
+msgid "- 'Logout Link' is only visible to logged in users."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login-custom-nav.php:87
+msgid "Add to Menu"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:261
+msgid "I consent collecting and storing my data from this form."
+msgstr ""
+"Ich erkläre mich damit einverstanden, dass meine Daten von diesem Formular "
+"erfasst und gespeichert werden."
+
+#: ../includes/class-sw-ajax-login.php:262
+msgid "Privacy Policy"
+msgstr "Datenschutz-Bestimmungen"
+
+#: ../includes/class-sw-ajax-login.php:263
+msgid ""
+"Registration completed successfully! Please check your email for email "
+"verification."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:264
+#, fuzzy
+msgid "Registration confirmation will be emailed to you."
+msgstr "E-Mail der Passwortzurücksetzungs-Bestätigung"
+
+#: ../includes/class-sw-ajax-login.php:266
+msgid "LOGIN"
+msgstr "ANMELDEN"
+
+#: ../includes/class-sw-ajax-login.php:267
+msgid "New to site?"
+msgstr "Neu auf der Website?"
+
+#: ../includes/class-sw-ajax-login.php:268
+msgid "Create an Account"
+msgstr "Ein Konto erstellen"
+
+#: ../includes/class-sw-ajax-login.php:269
+msgid "Lost password?"
+msgstr "Passwort vergessen?"
+
+#: ../includes/class-sw-ajax-login.php:270
+msgid "Signup"
+msgstr "Registrierung"
+
+#: ../includes/class-sw-ajax-login.php:271
+msgid "SIGNUP"
+msgstr "REGISTRIEREN"
+
+#: ../includes/class-sw-ajax-login.php:272
+msgid "Already have an account?"
+msgstr "Du hast bereits ein Konto?"
+
+#: ../includes/class-sw-ajax-login.php:274
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: ../includes/class-sw-ajax-login.php:275
+msgid "SUBMIT"
+msgstr "ABSENDEN"
+
+#: ../includes/class-sw-ajax-login.php:276
+msgid "Back in mind?"
+msgstr "Merken?"
+
+#: ../includes/class-sw-ajax-login.php:283
+#, fuzzy
+msgid "redirecting..."
+msgstr "erfolgreich, leite weiter..."
+
+#: ../includes/class-sw-ajax-login.php:284
+msgid "Sending user info, please wait..."
+msgstr "Sende Benutzer-Informationen, bitte warten..."
+
+#: ../includes/class-sw-ajax-login.php:285
+msgid "Logging out, please wait..."
+msgstr "Abmeldung, bitte warten..."
+
+#: ../includes/class-sw-ajax-login.php:286
+msgid "Authorization failed."
+msgstr "Genehmigung fehlgeschlagen."
+
+#: ../includes/class-sw-ajax-login.php:287
+msgid "Something Went Wrong!"
+msgstr "Etwas ist falsch gelaufen!"
+
+#: ../includes/class-sw-ajax-login.php:465
+msgid "Set as background"
+msgstr "Als Hintergrund einstellen"
+
+#: ../includes/class-sw-ajax-login.php:466
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#: ../includes/class-sw-ajax-login.php:467
+msgid "Do you want to remove the image?"
+msgstr "Möchtest du das Bild entfernen?"
+
+#: ../includes/class-sw-ajax-login.php:468
+msgid "Remove input field"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:469
+msgid "Are you sure you want to delete this input field?"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:470
+msgid "OK"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:471
+#: ../includes/functions/functions-forms.php:1755
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../includes/class-sw-ajax-login.php:472
+#, fuzzy
+msgid "Saving settings, please wait..."
+msgstr "Sende Benutzer-Informationen, bitte warten..."
+
+#: ../includes/class-sw-ajax-login.php:473
+msgid "Settings have been saved!"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:474
+msgid "Problem occurred while saving your settings"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:643
+msgid "SW Ajax Login User Menu"
+msgstr "SW Ajax-Anmeldung Benutzermenü"
+
+#: ../includes/class-sw-ajax-login.php:653
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../includes/class-sw-ajax-login.php:724
+msgid "Appearence"
+msgstr "Aussehen"
+
+#: ../includes/class-sw-ajax-login.php:734
+msgid "Social Login"
+msgstr "Anmeldung mit Sozialen Netzwerken"
+
+#: ../includes/class-sw-ajax-login.php:739
+msgid "Redirects & Permalink"
+msgstr "Weiterleitungen & Permalink"
+
+#: ../includes/class-sw-ajax-login.php:793
+#, fuzzy
+msgid "Registration fields"
+msgstr "Registrierung"
+
+#: ../includes/class-sw-ajax-login.php:831
+msgid "Menus update required"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:834
+msgid ""
+"From version 1.6.0 we have extended the way to add Login / Register / Logout "
+"menu items to menus by adding them from WP Admin menus page."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:838
+msgid "What happens updating to the new menus?"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:841
+msgid ""
+"After updating you will see on Admin Navigation menus the Login items you "
+"have assigned on our Menu section and all the submenu items you had "
+"previously added in the \"old way\" will be moved to the new Login items as "
+"their submenu."
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:845
+msgid "Finally you can place the login item in any position!"
+msgstr ""
+
+#: ../includes/class-sw-ajax-login.php:850
+#, fuzzy
+msgid "Update menus"
+msgstr " Menü erstellen"
+
+#: ../includes/functions/functions-adds-on-logo.php:20
+msgid "Custom Logo"
+msgstr "Individuelles Logo"
+
+#: ../includes/functions/functions-adds-on-logo.php:26
+msgid "You can add a logo to the forms, it will appear before the forms title"
+msgstr ""
+"Du kannst ein Logo zu den Formularen hinzufügen, es wird vor dem "
+"Formulartitel erscheinen"
+
+#: ../includes/functions/functions-email-templates.php:225
+msgid "You have received this email because you are a member of"
+msgstr "Du hast diese E-Mail erhalten, weil du ein Mitglied bist von"
+
+#: ../includes/functions/functions-email-templates.php:309
+msgid "{SITE_NAME}, New user {USERNAME} registered."
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:345
+#: ../includes/functions/functions-email-templates.php:386
+msgid "Welcome to {SITE_NAME}"
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:346
+#: ../includes/functions/functions-email-templates.php:387
+msgid "Your username is:"
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:347
+#: ../includes/functions/functions-email-templates.php:389
+#: ../includes/functions/functions-email-templates.php:549
+msgid "To login to the website please go to: "
+msgstr "Um dich auf der Website anzumelden, gehe zu:"
+
+#: ../includes/functions/functions-email-templates.php:348
+#: ../includes/functions/functions-email-templates.php:390
+#: ../includes/functions/functions-email-templates.php:472
+#: ../includes/functions/functions-email-templates.php:550
+msgid "Warm regards"
+msgstr "Herzliche Grüße"
+
+#: ../includes/functions/functions-email-templates.php:388
+#, fuzzy
+msgid "Your password is:"
+msgstr "Dein neues Passwort ist:"
+
+#: ../includes/functions/functions-email-templates.php:436
+#, fuzzy
+msgid "{SITE_NAME}, Your new password."
+msgstr "Dein neues Passwort"
+
+#: ../includes/functions/functions-email-templates.php:466
+#: ../includes/functions/functions-email-templates.php:546
+msgid "Password Reset"
+msgstr "Passwortzurücksetzung"
+
+#: ../includes/functions/functions-email-templates.php:467
+msgid "Hello {FIRST_NAME}!"
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:468
+msgid "You asked us to reset your password for your account."
+msgstr "Du hast danach gefragt dein Passwort für dein Konto zurückzusetzen."
+
+#: ../includes/functions/functions-email-templates.php:469
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:470
+msgid "To reset your password, visit the following address:"
+msgstr "Um dein Passwort zurückzusetzen, besuche die folgende Adresse:"
+
+#: ../includes/functions/functions-email-templates.php:516
+#, fuzzy
+msgid "{SITE_NAME}, You have reset your password."
+msgstr "Du hast dein Passwort zurückgesetzt"
+
+#: ../includes/functions/functions-email-templates.php:547
+msgid "Hello {FIRST_NAME},"
+msgstr ""
+
+#: ../includes/functions/functions-email-templates.php:548
+msgid "Your new password is:"
+msgstr "Dein neues Passwort ist:"
+
+#: ../includes/functions/functions-facebook-login.php:32
+msgid "Graph returned an error: "
+msgstr "Das Diagramm hat einen Fehler zurückgegeben:"
+
+#: ../includes/functions/functions-facebook-login.php:40
+msgid "Facebook SDK returned an error: "
+msgstr "Facebook SDK hat einen Fehler zurückgegeben:"
+
+#: ../includes/functions/functions-facebook-login.php:49
+msgid "No cookie set or no OAuth data could be obtained from cookie."
+msgstr ""
+"Aus dem Cookie konnten kein Cookie-Einstellung oder keine OAuth-Daten "
+"abgerufen werden."
+
+#: ../includes/functions/functions-forms.php:534
+msgid "Your password has been changed. You can sign in now."
+msgstr "Dein Passwort wurde geändert, du kannst dich nun anmelden."
+
+#: ../includes/functions/functions-forms.php:719
+#: ../includes/functions/functions-forms.php:721
+#: ../includes/functions/functions-forms.php:1499
+#: ../includes/functions/functions-forms.php:1501
+msgid "Username or Email"
+msgstr "Benutzername oder E-Mail-Adresse"
+
+#: ../includes/functions/functions-forms.php:726
+#: ../includes/functions/functions-forms.php:728
+#: ../includes/functions/functions-forms.php:1160
+#: ../includes/functions/functions-forms.php:1162
+msgid "Password"
+msgstr "Passwort"
+
+#: ../includes/functions/functions-forms.php:778
+msgid "Remember me"
+msgstr "Angemeldet bleiben"
+
+#: ../includes/functions/functions-forms.php:1134
+#: ../includes/functions/functions-forms.php:1136
+msgid "Email"
+msgstr "E-Mail-Adresse"
+
+#: ../includes/functions/functions-forms.php:1170
+#: ../includes/functions/functions-forms.php:1172
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: ../includes/functions/functions-forms.php:1297
+#: ../includes/functions/functions-forms.php:1428
+#: ../includes/functions/functions-forms.php:1562
+msgid ""
+"You are already logged in, to recover your password you have first to logout."
+msgstr ""
+
+#: ../includes/functions/functions-forms.php:1568
+msgid "Sorry, you need a valid key and login."
+msgstr ""
+"Entschuldige, du benötigst einen gültigen Schlüssel und eine Anmeldung."
+
+#: ../includes/functions/functions-forms.php:1589
+msgid "Sorry, that key has expired. Please try again."
+msgstr ""
+"Entschuldige, dieser Schlüssel ist abgelaufen. Bitte versuche es nochmal."
+
+#: ../includes/functions/functions-forms.php:1591
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Entschuldige, dieser Schlüssel scheint ungültig zu sein."
+
+#: ../includes/functions/functions-forms.php:1633
+#: ../includes/functions/functions-forms.php:1634
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: ../includes/functions/functions-forms.php:1637
+#: ../includes/functions/functions-forms.php:1638
+msgid "Confirm new password"
+msgstr "Neues Passwort bestätigen"
+
+#: ../includes/functions/functions-forms.php:1645
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: ../includes/functions/functions-forms.php:1647
+#, php-format
+msgid "Hint: The password has to be at least %d characters long. "
+msgstr "Hinweis: Das Passwort muss mindestens %d Zeichen lang sein."
+
+#: ../includes/functions/functions-forms.php:1648
+msgid ""
+"To make it stronger, use upper and lower case letters, numbers, and symbols "
+"like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: ../includes/functions/functions-forms.php:1796
+msgid "You are logged in as {USERNAME}. Not you?"
+msgstr ""
+
+#: ../includes/functions/functions-social-login-buttons.php:77
+#: ../includes/functions/functions-social-login-buttons.php:90
+msgid "or"
+msgstr "oder"
+
+#: ../includes/functions/functions-social-login-buttons.php:130
+#: ../includes/functions/functions-social-login-buttons.php:132
+msgid "Sign in with Facebook"
+msgstr "Anmelden mit Facebook"
+
+#: ../includes/functions/functions-social-login-buttons.php:158
+#: ../includes/functions/functions-social-login-buttons.php:160
+msgid "Sign in with Twitter"
+msgstr "Anmelden mit Twitter"
+
+#: ../includes/functions/functions-social-login-buttons.php:189
+#: ../includes/functions/functions-social-login-buttons.php:191
+msgid "Sign in with Google"
+msgstr "Anmelden mit Google"
+
+#: ../includes/functions/functions-social-login-buttons.php:222
+#: ../includes/functions/functions-social-login-buttons.php:224
+msgid "Sign in with Linkedin"
+msgstr "Anmelden mit LinkedIn"
+
+#: ../includes/functions/functions-social-login-buttons.php:255
+#: ../includes/functions/functions-social-login-buttons.php:257
+#, fuzzy
+msgid "Sign in with Apple"
+msgstr "Anmelden mit Google"
+
+#: ../includes/functions/functions-social-login-buttons.php:286
+#, fuzzy
+msgid "Sign in with amazon"
+msgstr "Anmelden mit Facebook"
+
+#: ../includes/functions/functions-social-login-buttons.php:288
+#, fuzzy
+msgid "Sign in with Amazon"
+msgstr "Anmelden mit Facebook"
+
+#: ../includes/functions/functions.php:32
+msgid "Logout successful, redirecting..."
+msgstr "Abmeldung erfolgreich, leite weiter..."
+
+#: ../includes/functions/functions.php:324
+#, fuzzy
+msgid "You have to enter a username."
+msgstr "Du musst eine gültige E-Mail-Adresse eingeben."
+
+#: ../includes/functions/functions.php:327
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: ../includes/functions/functions.php:332
+msgid "You have to enter a valid email address."
+msgstr "Du musst eine gültige E-Mail-Adresse eingeben."
+
+#: ../includes/functions/functions.php:336
+#: ../includes/functions/functions.php:682
+#, php-format
+msgid "Password must be at least %d characters long."
+msgstr "Das Passwort muss mindestens %d Zeichen lang sein."
+
+#: ../includes/functions/functions.php:341
+#, fuzzy
+msgid "reCAPTCHA error"
+msgstr "reCaptcha-Fehler"
+
+#: ../includes/functions/functions.php:346
+msgid "You have to agree to the use of your personal data"
+msgstr "Du musst der Nutzung deiner persönlichen Daten zustimmen"
+
+#: ../includes/functions/functions.php:351
+#: ../includes/functions/functions.php:690
+msgid "The passwords do not match."
+msgstr "Die Passwörter stimmen nicht überein."
+
+#: ../includes/functions/functions.php:552
+#: ../includes/functions/functions.php:763
+msgid "Enter an username or e-mail address."
+msgstr "Gib einen Benutzernamen oder eine E-Mail-Adresse an."
+
+#: ../includes/functions/functions.php:558
+msgid "There is no user registered with that email address."
+msgstr "Es gibt keinen registrierten Benutzer mit dieser E-Mail-Adresse."
+
+#: ../includes/functions/functions.php:564
+msgid "There is no user registered with that username."
+msgstr "Es gibt keinen registrierten Benutzer mit diesem Benutzernamen."
+
+#: ../includes/functions/functions.php:567
+msgid "Invalid username or e-mail address."
+msgstr "Ungültiger Benutzername oder E-Mail-Adresse."
+
+#: ../includes/functions/functions.php:595
+msgid "Check your email address for your new password."
+msgstr "Überprüfe deine E-Mail-Adresse nach deinem neuen Passwort."
+
+#: ../includes/functions/functions.php:597
+msgid "System is unable to send you mail containg your new password."
+msgstr ""
+"Das System ist nicht berechtigt dir eine E-Mail mit deinem neuen Passwort zu "
+"schicken."
+
+#: ../includes/functions/functions.php:676
+msgid "Password is required field"
+msgstr "Das Passwort-Feld ist erforderlich"
+
+#: ../includes/functions/functions.php:720
+msgid "Your password has been reset. Redirecting to login."
+msgstr ""
+"Dein Passwort wurde zurückgesetzt. Du wirst nun zur Anmeldung weitergeleitet."
+
+#: ../includes/functions/functions.php:809
+msgid "Top Left"
+msgstr "Oben links"
+
+#: ../includes/functions/functions.php:810
+msgid "Top Center"
+msgstr "Oben in der Mitte"
+
+#: ../includes/functions/functions.php:811
+msgid "Top Right"
+msgstr "Oben rechts"
+
+#: ../includes/functions/functions.php:812
+msgid "Middle Left"
+msgstr "In der Mitte links"
+
+#: ../includes/functions/functions.php:813
+msgid "Middle Center"
+msgstr "In der Mitte mittig"
+
+#: ../includes/functions/functions.php:814
+msgid "Middle Right"
+msgstr "In der Mitte rechts"
+
+#: ../includes/functions/functions.php:815
+msgid "Bottom Left"
+msgstr "Unten links"
+
+#: ../includes/functions/functions.php:816
+msgid "Bottom Center"
+msgstr "Unten in der Mitte"
+
+#: ../includes/functions/functions.php:817
+msgid "Bottom Right"
+msgstr "Unten rechts"
+
+#: ../includes/functions/functions.php:917
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../includes/functions/functions.php:979
+msgid "Sorry, new user registration is not allowed..."
+msgstr "Entschuldige, die Registrierung von neuen Benutzern ist nicht möglich"
+
+#: ../includes/functions/functions.php:1023
+#: ../includes/functions/functions.php:1050
+msgid "Login successful, redirecting..."
+msgstr "Anmeldung erfolgreich, leite weiter..."
+
+#: ../includes/functions/functions.php:2180
+msgid "When user is logged in:"
+msgstr ""
+
+#: ../includes/functions/functions.php:2183
+msgid "Don't show the avatar when logged in"
+msgstr ""
+
+#: ../includes/functions/functions.php:2187
+msgid "Logged in URL"
+msgstr ""
+
+#: ../includes/functions/functions.php:2190
+msgid ""
+"If you have changed this URL and want to get back to the plugin setting, "
+"leave this field empty and save."
+msgstr ""
+
+#: ../includes/functions/functions.php:2199
+msgid "This Menu Item is only visible to NOT logged in users."
+msgstr ""
+
+#: ../includes/functions/functions.php:2208
+#, fuzzy
+msgid "This Menu Item is only visible to logged in users."
+msgstr "Erstelle ein individuelles Untermenü für angemeldete Benutzer"
+
+#: ../includes/functions/functions.php:2752
+msgid "Upload"
+msgstr "Upload"
+
+#~ msgid "Don't assign to any menu"
+#~ msgstr "Keinem Menü zuordnen"
+
+#~ msgid "How it works"
+#~ msgstr "Wie es funktioniert"
+
+#~ msgid "Go to "
+#~ msgstr "Gehe zu"
+
+#~ msgid "On the top of the page, below the title Menus click on "
+#~ msgstr "Klicke oben auf der Seite, unterhalb des Menütitels auf"
+
+#~ msgid "create a new menu"
+#~ msgstr " erstelle ein neues Menü"
+
+#~ msgid "Insert a name on 'Menu Name' input field and then click on "
+#~ msgstr "Gebe im Eingabefeld ‚Menüname‘ einen Namen ein und klicke dann auf"
+
+#~ msgid "Add submenu to logged in menu item"
+#~ msgstr "Untermenü zum Anmelden-Menü-Punkt hinzufügen"
+
+#~ msgid "Step 1"
+#~ msgstr "Schritt 1"
+
+#~ msgid "Step 2"
+#~ msgstr "Schritt 2"
+
+#~ msgid "Step 3"
+#~ msgstr "Schritt 3"
+
+#~ msgid "Step 4"
+#~ msgstr "Schritt 4"
+
+#~ msgid "Step 5"
+#~ msgstr "Schritt 5"
+
+#~ msgid "Make sure that %s checkbox on 'Menu Settings' section is checked."
+#~ msgstr ""
+#~ "Versichere dir, dass das %s-Kontrollkästchen im ‚Menü-Einstellungen‘-"
+#~ "Bereich makiert ist."
+
+#~ msgid "Shows social login buttons."
+#~ msgstr "Zeigt Anmeldebuttons der Sozialen Netzwerke an."
+
+#~ msgid "Shows Login, Register, Forgot Password forms in the same page."
+#~ msgstr ""
+#~ "Zeigt die Anmelde-, Registrierungs- und Passwort-vergessen-Formulare auf "
+#~ "der gleichen Seite an."
+
+#~ msgid "Shows Login form."
+#~ msgstr "Zeigt das Anmeldeformular an."
+
+#~ msgid "Shows Register form."
+#~ msgstr "Zeigt das Registrierungsformular an."
+
+#~ msgid "Shows Forgot Password form."
+#~ msgstr "Zeigt das Passwort-vergessen-Formular an."
+
+#~ msgid "Shows Reset Password form."
+#~ msgstr "Zeigt das Passwortzurücksetzungs-Formular an."
+
+#~ msgid "Shows Logout form."
+#~ msgstr "Zeigt das Abmeldeformular an."
+
+#~ msgid "Styled Forgot password email"
+#~ msgstr "Anpassbare Passwort-vergessen-E-Mail"
+
+#~ msgid "Hello %s!"
+#~ msgstr "Hallo %s!"
+
+#~ msgid "Hello %s,"
+#~ msgstr "Hallo %s,"
+
+#~ msgid "Your password has been succesfully reset."
+#~ msgstr "Dein Passwort wurde erfolgreich zurückgesetzt."
+
+#~ msgid "Your new password is: "
+#~ msgstr "Dein neues Passwort ist:"
+
+#~ msgid "To login, visit the following address:"
+#~ msgstr "Um dich anzumelden, besuche die folgende Adresse:"
+
+#~ msgid "You are already logged in."
+#~ msgstr "Du bist bereits angemeldet."
+
+#~ msgid "You are already registered and logged in."
+#~ msgstr "Du bist bereits registriert und angemeldet."
+
+#~ msgid "LOGOUT"
+#~ msgstr "ABMELDEN"
+
+#~ msgid "This username is already registered."
+#~ msgstr "Dieser Benutzername ist bereits registriert."
+
+#~ msgid "This email address is already registered."
+#~ msgstr "Diese E-Mail-Adresse ist bereits registriert."
+
+#~ msgid "Wrong username or password."
+#~ msgstr "Falscher Benutzername oder Passwort."
+
+#~ msgid "(no menu)"
+#~ msgstr "(kein Menü)"
+
+#~ msgid "Add reCaptcha"
+#~ msgstr "reCaptcha hinzufügen"
+
+#~ msgid "Simple (with background image)"
+#~ msgstr "Einfach (mit Hintergrundbild)"
+
+#~ msgid "Double column (Full background image)"
+#~ msgstr "Doppelspalte (Ganzes Hintergrundbild)"

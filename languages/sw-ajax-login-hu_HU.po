@@ -1,0 +1,2788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StranoWeb Ajax Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-23 19:55+0100\n"
+"PO-Revision-Date: 2020-01-23 19:57+0100\n"
+"Last-Translator: Török Zoli <torokzoli@mediafest.hu>\n"
+"Language-Team: MediaFest\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 82724\n"
+"X-Loco-Api-Version: 1.0.24 20191119-1\n"
+"X-Poedit-KeywordsList: esc_html_x;__;esc_html__;_e;esc_html_e;_x;esc_html_ex;"
+"_ex\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-create-pages.php:35 admin/sw-ajax-login-admin-menu.php:127
+#: includes/class-sw-ajax-login.php:268 includes/class-sw-ajax-login.php:276
+#: includes/class-sw-ajax-login.php:280 includes/functions/functions.php:691
+#: includes/functions/functions.php:752 templates/sw-ajax-login-forms.php:19
+#: templates/sw-ajax-login-forms.php:28
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: admin/admin-create-pages.php:49 includes/functions/functions.php:756
+#: templates/sw-ajax-login-forms.php:22
+msgid "Register"
+msgstr "Regisztráció"
+
+#: admin/admin-create-pages.php:63 includes/class-sw-ajax-login.php:703
+#: includes/functions/functions.php:760 templates/sw-ajax-login-forms.php:25
+msgid "Forgot Password"
+msgstr "Elfelejtett jelszó"
+
+#: admin/admin-create-pages.php:77 includes/functions/functions-forms.php:1440
+#: includes/functions/functions-forms.php:1500
+#: includes/functions/functions.php:764
+msgid "Reset Password"
+msgstr "Jelszó visszaállítás"
+
+#: admin/admin-create-pages.php:91 includes/class-sw-ajax-login.php:707
+#: includes/functions/functions-custom-menu-items.php:108
+#: includes/functions/functions-custom-menu-items.php:161
+#: includes/functions/functions-custom-menu-items.php:199
+#: includes/functions/functions.php:768
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: admin/admin-create-pages.php:121
+msgid "Login Page"
+msgstr "Bejelentkezés oldal"
+
+#: admin/admin-create-pages.php:127
+msgid "Register Page"
+msgstr "Regisztráció oldal"
+
+#: admin/admin-create-pages.php:133
+msgid "Forgot Password Page"
+msgstr "Elfelejtett jelszó oldal"
+
+#: admin/admin-create-pages.php:139
+msgid "Reset Password Page"
+msgstr "Jelszó visszaállítás oldal"
+
+#: admin/admin-create-pages.php:145
+msgid "Logout Page"
+msgstr "Kijelentkezés oldal"
+
+#: admin/sw-ajax-login-admin-apparence.php:89
+msgid "Popup apparence"
+msgstr "Popup megjelenés"
+
+#: admin/sw-ajax-login-admin-apparence.php:93
+msgid "Popup layout style"
+msgstr "Popup elrendezés stílusa"
+
+#: admin/sw-ajax-login-admin-apparence.php:98
+msgid "Simple (no image)"
+msgstr "Egyszerű (nincs kép)"
+
+#: admin/sw-ajax-login-admin-apparence.php:99
+msgid "Simple (with background image)"
+msgstr "Egyszerű (háttérképpel)"
+
+#: admin/sw-ajax-login-admin-apparence.php:100
+msgid "Double column (Image on the left)"
+msgstr "Dupla oszlop (kép a bal oldalon)"
+
+#: admin/sw-ajax-login-admin-apparence.php:101
+msgid "Double column (Image on the right)"
+msgstr "Dupla oszlop (kép a jobb oldalon)"
+
+#: admin/sw-ajax-login-admin-apparence.php:102
+msgid "Double column (Full background image, form on right)"
+msgstr "Dupla oszlop (teljes háttérkép, űrlap a jobb oldalon)"
+
+#: admin/sw-ajax-login-admin-apparence.php:103
+msgid "Double column (Full background image, form on left)"
+msgstr "Dupla oszlop (teljes háttérkép, űrlap a bal oldalon)"
+
+#: admin/sw-ajax-login-admin-apparence.php:117
+msgid "Customize popup and main overlay"
+msgstr "Popup és fő átfedés testreszabása"
+
+#: admin/sw-ajax-login-admin-apparence.php:119
+msgid "Customize Popup width & color and overlay color & opacity"
+msgstr "Popup szélsség & szín és átfedő szín & átlátszóság testreszabása"
+
+#: admin/sw-ajax-login-admin-apparence.php:124
+msgid "Popup color"
+msgstr "Popup szín"
+
+#: admin/sw-ajax-login-admin-apparence.php:129
+#: admin/sw-ajax-login-admin-apparence.php:137
+msgid "Popup width"
+msgstr "Popup szélessége"
+
+#: admin/sw-ajax-login-admin-apparence.php:147
+msgid "Main overlay color"
+msgstr "Fő átfedő szín"
+
+#: admin/sw-ajax-login-admin-apparence.php:151
+#: admin/sw-ajax-login-admin-apparence.php:231
+#: admin/sw-ajax-login-admin-logout-window.php:102
+msgid "Opacity"
+msgstr "Átlátszóság"
+
+#: admin/sw-ajax-login-admin-apparence.php:161
+msgid "Text color"
+msgstr "Szövegszín"
+
+#: admin/sw-ajax-login-admin-apparence.php:165
+msgid "Text over images color"
+msgstr "Szöveg színe képeken"
+
+#: admin/sw-ajax-login-admin-apparence.php:172
+msgid "Secondary text color"
+msgstr "Másodlagos szövegszín"
+
+#: admin/sw-ajax-login-admin-apparence.php:176
+msgid "Form max width"
+msgstr "Űrlap maximális szélessége"
+
+#: admin/sw-ajax-login-admin-apparence.php:186
+#: admin/sw-ajax-login-admin-emails.php:146
+msgid "Link color"
+msgstr "Hivatkozás színe"
+
+#: admin/sw-ajax-login-admin-apparence.php:190
+msgid "Buttons color"
+msgstr "Gombok színe"
+
+#: admin/sw-ajax-login-admin-apparence.php:197
+msgid "Loader background color"
+msgstr "Betöltő háttérszíne"
+
+#: admin/sw-ajax-login-admin-apparence.php:201
+msgid "Loader text color"
+msgstr "Betöltő szöveg színe"
+
+#: admin/sw-ajax-login-admin-apparence.php:220
+msgid "Add image overlay"
+msgstr "Átfedő kép hozzáadása"
+
+#: admin/sw-ajax-login-admin-apparence.php:222
+msgid "Overlay is helpfull to make the text more readable"
+msgstr "Átfedő képpel a szöveg olvashatóbb"
+
+#: admin/sw-ajax-login-admin-apparence.php:227
+#: admin/sw-ajax-login-admin-logout-window.php:98
+msgid "Overlay color"
+msgstr "Átfedés színe"
+
+#: admin/sw-ajax-login-admin-apparence.php:243
+msgid "Custom CSS"
+msgstr "Egyedi CSS"
+
+#: admin/sw-ajax-login-admin-apparence.php:247
+msgid ""
+"You can add additional css here. For security reasons, css comments, @import "
+"and @charset are removed."
+msgstr ""
+"További CSS-t itt is hozzáadhat. Biztonsági okokból, CSS megjegyzések, "
+"@import és @charset el lesz távolítva."
+
+#: admin/sw-ajax-login-admin-apparence.php:253
+#: admin/sw-ajax-login-admin-emails.php:421
+#: admin/sw-ajax-login-admin-forgot-password.php:164
+#: admin/sw-ajax-login-admin-login-window.php:210
+#: admin/sw-ajax-login-admin-logout-window.php:130
+#: admin/sw-ajax-login-admin-menu.php:290
+#: admin/sw-ajax-login-admin-redirects.php:260
+#: admin/sw-ajax-login-admin-register-window.php:287
+#: admin/sw-ajax-login-admin-socials.php:370
+msgid "Save Changes"
+msgstr "Módosítások mentése"
+
+#: admin/sw-ajax-login-admin-emails.php:17
+#: admin/sw-ajax-login-admin-emails.php:116
+msgid "Emails"
+msgstr "Emailek"
+
+#: admin/sw-ajax-login-admin-emails.php:122
+msgid "Email apparence"
+msgstr "Email megjelenés"
+
+#: admin/sw-ajax-login-admin-emails.php:126
+msgid "Body color"
+msgstr "Törzs színe"
+
+#: admin/sw-ajax-login-admin-emails.php:130
+msgid "Content background color"
+msgstr "Tartalom háttérszíne"
+
+#: admin/sw-ajax-login-admin-emails.php:136
+msgid "Header background color"
+msgstr "Fejléc háttér színe"
+
+#: admin/sw-ajax-login-admin-emails.php:140
+msgid "Header text color"
+msgstr "Fejléc szöveg színe"
+
+#: admin/sw-ajax-login-admin-emails.php:150
+msgid "Header font size"
+msgstr "Fejléc betűmérete"
+
+#: admin/sw-ajax-login-admin-emails.php:159
+msgid "Content text color"
+msgstr "Tartalom szöveg színe"
+
+#: admin/sw-ajax-login-admin-emails.php:163
+msgid "Container width"
+msgstr "Szélesség"
+
+#: admin/sw-ajax-login-admin-emails.php:172
+msgid "Header image"
+msgstr "Fejléckép"
+
+#: admin/sw-ajax-login-admin-emails.php:176
+msgid "Image position"
+msgstr "Képpozíció"
+
+#: admin/sw-ajax-login-admin-emails.php:179
+msgid "Above the header (centered)"
+msgstr "A fejléc felett (középre)"
+
+#: admin/sw-ajax-login-admin-emails.php:180
+msgid "Inside the header on the left"
+msgstr "A fejlécen belül balra"
+
+#: admin/sw-ajax-login-admin-emails.php:181
+msgid "Inside the header centered"
+msgstr "A fejlécen belül középre"
+
+#: admin/sw-ajax-login-admin-emails.php:182
+msgid "Inside the header on the right"
+msgstr "A fejlécen belül jobbra"
+
+#: admin/sw-ajax-login-admin-emails.php:192
+msgid "Add shadow to the container"
+msgstr "Árnyék hozzáadása a tárolóhoz"
+
+#: admin/sw-ajax-login-admin-emails.php:196
+msgid "Hide header title"
+msgstr "Fejléccím elrejtése"
+
+#: admin/sw-ajax-login-admin-emails.php:201
+msgid "Email address \"from\""
+msgstr "Feladó címe"
+
+#: admin/sw-ajax-login-admin-emails.php:203
+msgid "The email address that will appear as sender"
+msgstr "A feladóként megjelenő e-mail cím"
+
+#: admin/sw-ajax-login-admin-emails.php:214
+msgid "Customize emails content"
+msgstr "Emailek tartalmának testreszabása"
+
+#: admin/sw-ajax-login-admin-emails.php:216
+msgid "By enabling this option you can customize the email contents."
+msgstr ""
+"Ha engedélyezi ezt a lehetőséget, akkor az email tartalmát testreszabhatod."
+
+#: admin/sw-ajax-login-admin-emails.php:225
+msgid "New User registration"
+msgstr "Új felhasználók regisztráció"
+
+#: admin/sw-ajax-login-admin-emails.php:227
+#: admin/sw-ajax-login-admin-emails.php:236
+#, php-format
+msgid ""
+"This section lets you customize the email the new user will receive after "
+"successful registration.<br/><br/><a href=\"%s\" target=\"_blank\">Preview "
+"this email template</a>."
+msgstr ""
+"Ennél a résznél testreszabhatod azt az emailt, amit a felhasználó fog "
+"megkapni sikeres regisztráció után. <br/><br/><a href=\"%s\" target=\"_blank"
+"\">Sablon előnézete</a>."
+
+#: admin/sw-ajax-login-admin-emails.php:229
+#: admin/sw-ajax-login-admin-emails.php:238
+#: admin/sw-ajax-login-admin-emails.php:314
+#: admin/sw-ajax-login-admin-emails.php:355
+msgid "(First Click on 'Save Changes')"
+msgstr "(Először kattints a \"Változtatások mentése\" gombra)"
+
+#: admin/sw-ajax-login-admin-emails.php:234
+msgid "New User registration (Form without password fields)"
+msgstr "Új Felhasználó regisztráció (jelszómezők nélküli űrlap)"
+
+#: admin/sw-ajax-login-admin-emails.php:261
+#: admin/sw-ajax-login-admin-emails.php:291
+#: admin/sw-ajax-login-admin-emails.php:334
+#: admin/sw-ajax-login-admin-emails.php:375
+#: admin/sw-ajax-login-admin-emails.php:407
+msgid ""
+"Tip: to go back to the default text clear the field and click on 'Save "
+"Changes'"
+msgstr ""
+"Tipp: az alap szöveg beallításához töröld ki a szöveget a mezőben és "
+"kattints a Mentés gombra"
+
+#: admin/sw-ajax-login-admin-emails.php:263
+#: admin/sw-ajax-login-admin-emails.php:293
+#: admin/sw-ajax-login-admin-emails.php:336
+#: admin/sw-ajax-login-admin-emails.php:377
+#: admin/sw-ajax-login-admin-emails.php:409
+msgid "Available tags for this content"
+msgstr "A tartalomhoz rendelkezésre álló Címkék"
+
+#: admin/sw-ajax-login-admin-emails.php:265
+#: admin/sw-ajax-login-admin-emails.php:295
+#: admin/sw-ajax-login-admin-emails.php:338
+#: admin/sw-ajax-login-admin-emails.php:380
+#: admin/sw-ajax-login-admin-emails.php:411
+msgid "Website name"
+msgstr "Honlap név"
+
+#: admin/sw-ajax-login-admin-emails.php:266
+#: admin/sw-ajax-login-admin-emails.php:296
+#: admin/sw-ajax-login-admin-emails.php:339
+#: admin/sw-ajax-login-admin-emails.php:381
+#: admin/sw-ajax-login-admin-emails.php:412
+msgid "Website URL"
+msgstr "Honlap címe"
+
+#: admin/sw-ajax-login-admin-emails.php:267
+#: admin/sw-ajax-login-admin-emails.php:297
+#: admin/sw-ajax-login-admin-emails.php:340
+#: admin/sw-ajax-login-admin-emails.php:382
+#: admin/sw-ajax-login-admin-emails.php:413
+msgid "Website name + link to the homepage"
+msgstr "Honlap neve + link a honlaphoz"
+
+#: admin/sw-ajax-login-admin-emails.php:268
+#: admin/sw-ajax-login-admin-emails.php:298
+#: admin/sw-ajax-login-admin-emails.php:341
+#: admin/sw-ajax-login-admin-emails.php:383
+#: admin/sw-ajax-login-admin-emails.php:414
+msgid "Login page URL"
+msgstr "Bejelentkezési oldal hivatkozása"
+
+#: admin/sw-ajax-login-admin-emails.php:269
+#: admin/sw-ajax-login-admin-emails.php:299
+#: admin/sw-ajax-login-admin-emails.php:344
+#: admin/sw-ajax-login-admin-emails.php:384
+#: admin/sw-ajax-login-admin-emails.php:415
+msgid "User First Name"
+msgstr "Felhasználó keresztneve"
+
+#: admin/sw-ajax-login-admin-emails.php:300
+#: admin/sw-ajax-login-admin-emails.php:343
+#: admin/sw-ajax-login-admin-emails.php:385
+#: admin/sw-ajax-login-admin-menu.php:182
+#: includes/functions/functions-forms.php:1003
+#: includes/functions/functions-forms.php:1004
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: admin/sw-ajax-login-admin-emails.php:301
+#: admin/sw-ajax-login-admin-emails.php:386
+msgid "New password created"
+msgstr "Új jelszó létrehozva"
+
+#: admin/sw-ajax-login-admin-emails.php:310
+msgid "Forgot password flow"
+msgstr "Elfelejtett jelszó folyamat"
+
+#: admin/sw-ajax-login-admin-emails.php:312
+#, php-format
+msgid ""
+"This section lets you customize the email the user will receive after forgot "
+"password request.<br/><br/><a href=\"%s\" target=\"_blank\">Preview this "
+"email template</a>."
+msgstr ""
+"Ennél a résznél testreszabhatod azt az emailt, amit a felhasználó fog "
+"megkapni jelszó emlékeztető kérésénel. <br/><br/><a href=\"%s\" target="
+"\"_blank\">Sablon előnézete</a>."
+
+#: admin/sw-ajax-login-admin-emails.php:342
+msgid "Reset password URL"
+msgstr "Jelszó visszaállítás hivatkozás"
+
+#: admin/sw-ajax-login-admin-emails.php:351
+msgid "New password confirm"
+msgstr "Új jelszó megerősítése"
+
+#: admin/sw-ajax-login-admin-emails.php:353
+#, php-format
+msgid ""
+"This section lets you customize the email the user will receive after "
+"successful password reset.<br/><br/><a href=\"%s\" target=\"_blank\">Preview "
+"this email template</a>."
+msgstr ""
+"Ennél a résznél testreszabhatod azt az emailt, amit a felhasználó fog "
+"megkapni sikeres jelszó visszaállításesetén . <br/><br/><a href=\"%s\" "
+"target=\"_blank\">Sablon előnézete</a>."
+
+#: admin/sw-ajax-login-admin-emails.php:379
+msgid "Conditional shortcode depending on show password setting"
+msgstr "Feltételes rövidkód a jelszó megjelenítéstől függően"
+
+#: admin/sw-ajax-login-admin-emails.php:393
+msgid "Footer"
+msgstr "Lábléc"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:70
+msgid "Forgot Password window"
+msgstr "Elfelejtett jelszó ablak"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:77
+#: admin/sw-ajax-login-admin-login-window.php:119
+#: admin/sw-ajax-login-admin-register-window.php:133
+msgid "Popup title"
+msgstr "Popup cím"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:79
+#: admin/sw-ajax-login-admin-forgot-password.php:84
+#: admin/sw-ajax-login-admin-login-window.php:121
+#: admin/sw-ajax-login-admin-login-window.php:126
+#: admin/sw-ajax-login-admin-register-window.php:135
+#: admin/sw-ajax-login-admin-register-window.php:140
+msgid "To reset to default title leave it empty and save."
+msgstr ""
+"Alapértelmezett cím visszaállításához hagyd üresen a cím mezőt es kattints a "
+"Mentés gombra."
+
+#: admin/sw-ajax-login-admin-forgot-password.php:82
+#: admin/sw-ajax-login-admin-login-window.php:124
+#: admin/sw-ajax-login-admin-register-window.php:138
+msgid "Submit button"
+msgstr "Küldés gomb"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:89
+#: admin/sw-ajax-login-admin-login-window.php:131
+#: admin/sw-ajax-login-admin-register-window.php:145
+msgid "Text on top"
+msgstr "Szöveg felül"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:91
+#: admin/sw-ajax-login-admin-register-window.php:147
+msgid ""
+"This is the text at the top of the form combined with the link to login "
+"popup. If you don't want this text leave this field empty."
+msgstr ""
+"Ez a szöveg az űrlap tetején a bejelentkezés popup ablak linkjével együtt "
+"fog megjelenni. Ha nem akarod, hogy a szöveg megjelenjen, hagyd a mezőt "
+"üresen."
+
+#: admin/sw-ajax-login-admin-forgot-password.php:94
+#: admin/sw-ajax-login-admin-register-window.php:150
+msgid "Link's text to login page"
+msgstr "Hivatkozás szövege a bejelentkezés oldalhoz"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:96
+#: admin/sw-ajax-login-admin-register-window.php:152
+msgid "This is the link's text to login popup."
+msgstr "Ez a link szövege a bejelentkezés popup ablaknál."
+
+#: admin/sw-ajax-login-admin-forgot-password.php:103
+msgid "Reset Password confirmation email"
+msgstr "A jelszó-visszaállítás megerősítés email"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:105
+msgid "Show new password"
+msgstr "Új jelszó mutatása"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:108
+msgid ""
+"Upon successful reset password, the user will receive a new password "
+"confirmation email. "
+msgstr ""
+"A sikeres jelszó-visszaállítás esetén a felhasználó kap egy új jelszót "
+"visszaigazoló e-mailt. "
+
+#: admin/sw-ajax-login-admin-forgot-password.php:109
+msgid ""
+"By enabling this option the new password will be shown on email content."
+msgstr ""
+"Ha engedélyezi ezt a lehetőséget, akkor az email tartalmazza az új jelszót."
+
+#: admin/sw-ajax-login-admin-forgot-password.php:118
+msgid "Add icon to email input field"
+msgstr "Ikon hozzáadása az email beviteli mezőbe"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:120
+msgid ""
+"By enabling this option fontawesome icons will be added to email input field."
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, akkor a fontawesome ikonokat hozzáadjuk "
+"az email mezőhöz."
+
+#: admin/sw-ajax-login-admin-forgot-password.php:126
+msgid "Forgot password background image"
+msgstr "Elfelejtett jelszó háttérképe"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:132
+msgid ""
+"The image the will appear as background on forgot password popup if you have "
+"chosen the popup layout style with image"
+msgstr ""
+"A kép háttérként jelenik meg az elfelejtett jelzó popupban, ha a popup "
+"képpel elrendezést választottad"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:136
+#: admin/sw-ajax-login-admin-login-window.php:182
+#: admin/sw-ajax-login-admin-logout-window.php:77
+#: admin/sw-ajax-login-admin-register-window.php:259
+msgid "Background position"
+msgstr "Háttér pozíció"
+
+#: admin/sw-ajax-login-admin-forgot-password.php:148
+#: admin/sw-ajax-login-admin-register-window.php:271
+msgid "Register text (optional)"
+msgstr "Regisztráció szöveg (nem kötelező)"
+
+#: admin/sw-ajax-login-admin-login-window.php:76
+#: includes/class-sw-ajax-login.php:695
+msgid "Login window"
+msgstr "Bejelentkező ablak"
+
+#: admin/sw-ajax-login-admin-login-window.php:79
+msgid "Remember credentials"
+msgstr "\"Emlékezzen rám\" használata"
+
+#: admin/sw-ajax-login-admin-login-window.php:84
+msgid "Always"
+msgstr "Mindig"
+
+#: admin/sw-ajax-login-admin-login-window.php:85
+msgid "Never"
+msgstr "Soha"
+
+#: admin/sw-ajax-login-admin-login-window.php:86
+msgid "Show checkbox"
+msgstr "Jelölőnégyzet megjelenítése"
+
+#: admin/sw-ajax-login-admin-login-window.php:93
+msgid ""
+"You can choose if website remembers user's credentials, never or shows a "
+"checkbox to let the user decide."
+msgstr ""
+"Eldöntheted, hogy a honlap emlékezzen-e a felhasználó adataira, soha vagy "
+"jelenítsen meg egy jelölőnégyzetet, hogy a felhasználó dönthesse ezt el."
+
+#: admin/sw-ajax-login-admin-login-window.php:99
+msgid "Minimum password length"
+msgstr "Minimális jelszóhossz"
+
+#: admin/sw-ajax-login-admin-login-window.php:109
+msgid "Select the minimum password length, 0 means no minimum length required."
+msgstr ""
+"Válassza ki a minimális jelszóhosszúságot, a 0 ha nincs minimális hossz."
+
+#: admin/sw-ajax-login-admin-login-window.php:133
+msgid ""
+"This is the text at the top of the form combined with the link to the "
+"register popup. If you don't want this text leave this field empty."
+msgstr ""
+"Ez az űrlap tetején található szöveg a regisztráció popup ablakkal együtt. "
+"Ha nem akarod, hogy megjelenjen ez a szöveg, akkor hagyd üresen a mezőt."
+
+#: admin/sw-ajax-login-admin-login-window.php:136
+msgid "Link's text to register page"
+msgstr "Hivatkozás szövege regisztráció oldalhoz"
+
+#: admin/sw-ajax-login-admin-login-window.php:138
+msgid "This is the link's text to the register popup."
+msgstr "Ez a link szövege a regisztració popup ablaknál."
+
+#: admin/sw-ajax-login-admin-login-window.php:143
+msgid "Link's text to forgot password page"
+msgstr "Hivatkozás szövege az elfelejtett jelszó oldalhoz"
+
+#: admin/sw-ajax-login-admin-login-window.php:145
+msgid ""
+"This is the link's text to the forgot password popup. To reset to default "
+"text leave it empty and save."
+msgstr ""
+"Ez a link szövege az elfelejtett jelszó popup ablaknál. Ahhoz, hogy az "
+"alapértelmezett szöveg jelenjen meg, hagyd üresen a mezőt és kattints a "
+"Mentés gombra."
+
+#: admin/sw-ajax-login-admin-login-window.php:154
+msgid "Add icons to login input fields"
+msgstr "Ikon hozzáadása az belépés beviteli mezőkbe"
+
+#: admin/sw-ajax-login-admin-login-window.php:156
+msgid ""
+"By enabling this option fontawesome icons will be added to username and "
+"password input fields."
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, akkor a fontawesome ikonokat hozzáadjuk a "
+"felhasználónév és a jelszó mezőkhöz."
+
+#: admin/sw-ajax-login-admin-login-window.php:164
+msgid "Add Show/Hide password switch"
+msgstr "Jelszókapcsoló megjelenítése/elrejtése"
+
+#: admin/sw-ajax-login-admin-login-window.php:166
+msgid "Enable this option to add a show/hide switch to the password field."
+msgstr ""
+"Aktiváld ezt az opciót, hogy a jelszó mezőhöz egy mutatás/rejtés kapcsoló "
+"adódjon hozzá."
+
+#: admin/sw-ajax-login-admin-login-window.php:172
+msgid "Login background image"
+msgstr "Bejelentkezési háttérkép"
+
+#: admin/sw-ajax-login-admin-login-window.php:178
+msgid ""
+"The image the will appear as background of login popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"A kép háttérként jelenik meg a belépés popupban, ha a popup képpel "
+"elrendezést választottad"
+
+#: admin/sw-ajax-login-admin-login-window.php:194
+msgid "Login text (optional)"
+msgstr "Bejelentkezési szöveg (nem kötelező)"
+
+#: admin/sw-ajax-login-admin-logout-window.php:55
+msgid "Do you want to logout?"
+msgstr "Biztos ki szeretnél lépni?"
+
+#: admin/sw-ajax-login-admin-logout-window.php:64
+msgid "Logout window"
+msgstr "Kijelentkezés ablak"
+
+#: admin/sw-ajax-login-admin-logout-window.php:67
+msgid "Logout background image"
+msgstr "Kijelentkezés háttérkép"
+
+#: admin/sw-ajax-login-admin-logout-window.php:73
+msgid ""
+"The image the will appear as background on logout popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"A kép háttérként jelenik meg a kilépés popupban, ha a popup képpel "
+"elrendezést választottad"
+
+#: admin/sw-ajax-login-admin-logout-window.php:91
+msgid "Customize logout image overlay"
+msgstr "Kilépési átfedő kép testreszabása"
+
+#: admin/sw-ajax-login-admin-logout-window.php:93
+msgid ""
+"By enabling this option you can set a different overlay color and opacity to "
+"logout window"
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, akkor külön átfedő színt és áttetszőséget "
+"állíthatsz be a kilépés ablakhoz"
+
+#: admin/sw-ajax-login-admin-logout-window.php:114
+msgid "Logout text (optional)"
+msgstr "Kijelentkező szöveg (nem kötelező)"
+
+#: admin/sw-ajax-login-admin-menu.php:82 includes/class-sw-ajax-login.php:683
+msgid "Menu"
+msgstr "Menü"
+
+#: admin/sw-ajax-login-admin-menu.php:86
+msgid "Add Login menu item to:"
+msgstr "Belépés menü hozzáadása ide:"
+
+#: admin/sw-ajax-login-admin-menu.php:100
+msgid "Don't assign to any menu"
+msgstr "Ne rendelje semmilyen menühöz"
+
+#: admin/sw-ajax-login-admin-menu.php:106
+#, php-format
+msgid ""
+"This navigation menu has not a menu yet, please go to %s and create one."
+msgstr ""
+"Ennek a navigációs menünek még nincs menüje, kérlek menj a  %s-hoz es "
+"készíts egyet."
+
+#: admin/sw-ajax-login-admin-menu.php:106
+#: admin/sw-ajax-login-admin-menu.php:199 docs/sw-ajax-login-docs.php:62
+msgid "Appearance -> Menus"
+msgstr "Megjelenés-> Menük"
+
+#: admin/sw-ajax-login-admin-menu.php:112
+msgid ""
+"Select the menu you want to add the item 'Login'. It's usually the header "
+"menu, but you can select any other menu."
+msgstr ""
+"Válaszd ki a menüt, amelyhez hozzá szeretnéd adni a Belépést. Ez általában a "
+"főmenü, de választhatsz másikat is."
+
+#: admin/sw-ajax-login-admin-menu.php:122
+msgid "Login menu text"
+msgstr "A bejelentkező menü szövege"
+
+#: admin/sw-ajax-login-admin-menu.php:128 includes/functions/functions.php:692
+msgid "Login/Register"
+msgstr "Bejelentkezés / Regisztráció"
+
+#: admin/sw-ajax-login-admin-menu.php:129
+msgid "Custom text"
+msgstr "Egyéni szöveg"
+
+#: admin/sw-ajax-login-admin-menu.php:136
+msgid "Insert custom text"
+msgstr "Egyéni szöveg beszúrása"
+
+#: admin/sw-ajax-login-admin-menu.php:139
+msgid "Select the text that will appear on the login menu item."
+msgstr "Válaszd ki a bejelentkező menüpontban megjelenő szöveget."
+
+#: admin/sw-ajax-login-admin-menu.php:149
+msgid "Thumbnail Style"
+msgstr "Bélyegkép stílusa"
+
+#: admin/sw-ajax-login-admin-menu.php:153
+msgid "Don't show thumbnail"
+msgstr "Bélyegkép ne jelenjen meg"
+
+#: admin/sw-ajax-login-admin-menu.php:154
+msgid "Squared"
+msgstr "Szögletes"
+
+#: admin/sw-ajax-login-admin-menu.php:155
+msgid "Rounded"
+msgstr "Kerekített"
+
+#: admin/sw-ajax-login-admin-menu.php:163
+msgid "Width"
+msgstr "Szélesség"
+
+#: admin/sw-ajax-login-admin-menu.php:171
+msgid ""
+"This is how the user thumbnail will appear on the main menu when the user is "
+"logged"
+msgstr ""
+"Így fog megjelenni a felhasználó miniatűrje a főmenüben, amikor a "
+"felhasználó be van jelentkezve"
+
+#: admin/sw-ajax-login-admin-menu.php:177
+msgid "Once logged show on main menu:"
+msgstr "Belépve ezt mutassa a főmenü:"
+
+#: admin/sw-ajax-login-admin-menu.php:181
+msgid "Logout link"
+msgstr "Kijelentkezés hivatkozás"
+
+#: admin/sw-ajax-login-admin-menu.php:183
+msgid "Name Surname"
+msgstr "Vezetéknév"
+
+#: admin/sw-ajax-login-admin-menu.php:184
+msgid "Surname Name"
+msgstr "Vezetéknév"
+
+#: admin/sw-ajax-login-admin-menu.php:190
+msgid "Note: if name or surname are not available will display the username."
+msgstr ""
+"Megjegyzés: Ha nem áll rendelkezésre név vagy vezetéknév, megjelenik a "
+"Felhasználónév."
+
+#: admin/sw-ajax-login-admin-menu.php:194
+msgid "How it works"
+msgstr "Hogyan működik"
+
+#: admin/sw-ajax-login-admin-menu.php:195
+msgid ""
+"This menu item contains a fully customizable submenu (except for only logout "
+"text). To manage it please follow these steps:"
+msgstr ""
+"Ez a menüpont egy teljesen testreszabható almenüt tartalmaz (kivéve a "
+"kijelentkező szöveget). Ennek a kezeléséhez kövesd az alábbi lépéseket:"
+
+#: admin/sw-ajax-login-admin-menu.php:199 docs/sw-ajax-login-docs.php:62
+msgid "Go to "
+msgstr "Ugrás "
+
+#: admin/sw-ajax-login-admin-menu.php:202 docs/sw-ajax-login-docs.php:63
+msgid "On the top of the page, below the title Menus click on "
+msgstr "Az oldal tetején, a cím alatti menüben kattintson a "
+
+#: admin/sw-ajax-login-admin-menu.php:202 docs/sw-ajax-login-docs.php:63
+msgid "create a new menu"
+msgstr "új menü létrehozása"
+
+#: admin/sw-ajax-login-admin-menu.php:205 docs/sw-ajax-login-docs.php:66
+msgid "Insert a name on 'Menu Name' input field and then click on "
+msgstr ""
+"Helyezzen be egy nevet a \"menünév\" beviteli mezőbe, majd kattintson a "
+
+#: admin/sw-ajax-login-admin-menu.php:205 docs/sw-ajax-login-docs.php:66
+msgid "Create Menu"
+msgstr "Menü létrehozás"
+
+#: admin/sw-ajax-login-admin-menu.php:209
+#, php-format
+msgid ""
+"You are now on 'Menu Structure' section where you can add menu items from "
+"the column on the left. Make sure that %s checkbox on 'Menu Settings' "
+"section is checked; "
+msgstr ""
+"Most a \"Menü struktúra\" részben vagy, ahol menüelemeket adhatsz hozzá a "
+"bal oldali oszlopból. Ellenőrizd, hogy a %s jelölőnégyzet ki van pipálva a "
+"Menü beállítások részben; "
+
+#: admin/sw-ajax-login-admin-menu.php:218
+msgid "Menu item links to:"
+msgstr "Menüelem hivatkozása:"
+
+#: admin/sw-ajax-login-admin-menu.php:223
+msgid "No link"
+msgstr "Nincs hivatkozás"
+
+#: admin/sw-ajax-login-admin-menu.php:224
+msgid "Custom link"
+msgstr "Egyedi hivatkozás"
+
+#: admin/sw-ajax-login-admin-menu.php:232
+msgid "Insert page"
+msgstr "Oldal beszúrása"
+
+#: admin/sw-ajax-login-admin-menu.php:233
+msgid "If the field is empty no link will be applied to the menu item."
+msgstr "Ha a mező üres, akkor nem lesz linkje a menüelemnek."
+
+#: admin/sw-ajax-login-admin-menu.php:242
+msgid "Add additional class to menu item"
+msgstr "További osztály hozzáadása menüelemhez"
+
+#: admin/sw-ajax-login-admin-menu.php:244
+msgid ""
+"You can add some additional class to menu item HTML tags to fit better your "
+"theme."
+msgstr ""
+"További osztályokat adhatsz a menüelem HTML tagjaihoz, hogy jobban "
+"illeszkedjen a sablonodba."
+
+#: admin/sw-ajax-login-admin-menu.php:251
+msgid "li"
+msgstr "li"
+
+#: admin/sw-ajax-login-admin-menu.php:253
+#: admin/sw-ajax-login-admin-menu.php:261
+#: admin/sw-ajax-login-admin-menu.php:269
+#: admin/sw-ajax-login-admin-menu.php:277
+#: admin/sw-ajax-login-admin-menu.php:285
+msgid "Insert classes"
+msgstr "Osztályok beszúrása"
+
+#: admin/sw-ajax-login-admin-menu.php:254
+msgid "classes will be added to <li class=\"...\">"
+msgstr "osztályok hozzáadása a következőhöz <li class=\"...\">"
+
+#: admin/sw-ajax-login-admin-menu.php:259
+msgid "li -> a"
+msgstr "li -> a"
+
+#: admin/sw-ajax-login-admin-menu.php:262
+msgid "classes will be added to <li><a class=\"...\">"
+msgstr "osztályok hozzáadása a következőhöz <li><a class=\"...\">"
+
+#: admin/sw-ajax-login-admin-menu.php:267
+msgid "li -> ul"
+msgstr "li -> ul"
+
+#: admin/sw-ajax-login-admin-menu.php:270
+msgid "classes will be added to the dropdown menu <li><ul class=\"...\">"
+msgstr "osztályok hozzáadása a lenyíló menü <li><ul class=\"...\"> részéhez"
+
+#: admin/sw-ajax-login-admin-menu.php:275
+msgid "li -> ul -> li"
+msgstr "li -> ul -> li"
+
+#: admin/sw-ajax-login-admin-menu.php:278
+msgid "classes will be added to the dropdown menu <li><ul><li class=\"...\">"
+msgstr ""
+"osztályok hozzáadása a lenyíló menü <li><ul><li class=\"...\"> részéhez"
+
+#: admin/sw-ajax-login-admin-menu.php:283
+msgid "li -> ul -> li -> a"
+msgstr "li -> ul -> li -> a"
+
+#: admin/sw-ajax-login-admin-menu.php:286
+msgid ""
+"classes will be added to the dropdown menu <li><ul><li><a class=\"...\">"
+msgstr ""
+"osztályok hozzáadása a lenyíló menü <li><ul><li><a class=\"...\"> részéhez"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:50
+msgid "Disallow automatic login after registration"
+msgstr "A regisztrálás utáni automatikus bejelentkezés tiltása"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:52
+msgid ""
+"By enabling this option users won't be automatically logged in, this can be "
+"usefull if you are using a third party plugin for new user activation."
+msgstr ""
+"Ezen opció aktiválásával a felhasználók nem lesznek automatikusan "
+"bejelentkezve. Ez akkor értekes, ha egy harmadik féltől való bővítményt "
+"használsz az új felhasználó aktiválásához."
+
+#: admin/sw-ajax-login-admin-no-autologin.php:59
+msgid "After registration:"
+msgstr "Regisztráció után:"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:63
+msgid "Show a message on register form"
+msgstr "Üzenet megjelenítése a regisztrációs űrlapon"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:64
+msgid "Redirect to login form and show a message"
+msgstr "Átirányítás a bejelentkezési űrlapra, és üzenet megjelenítése"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:65
+#: admin/sw-ajax-login-admin-redirects.php:131
+msgid "Redirect to homepage"
+msgstr "Átirányítás a kezdőlapra"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:66
+msgid "Redirect to a page"
+msgstr "Átirányítás egy oldalra"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:74
+msgid "Success message"
+msgstr "Sikeres művelet üzenet"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:90
+msgid "Page"
+msgstr "Oldal"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:100
+#: admin/sw-ajax-login-admin-permalinks.php:87
+#: admin/sw-ajax-login-admin-permalinks.php:104
+#: admin/sw-ajax-login-admin-permalinks.php:121
+#: admin/sw-ajax-login-admin-permalinks.php:138
+#: admin/sw-ajax-login-admin-permalinks.php:155
+#: admin/sw-ajax-login-admin-register-window.php:208
+msgid "--- None ---"
+msgstr "--- Egyik sem ---"
+
+#: admin/sw-ajax-login-admin-no-autologin.php:106
+#: admin/sw-ajax-login-admin-redirects.php:97
+#: admin/sw-ajax-login-admin-redirects.php:119
+#: admin/sw-ajax-login-admin-redirects.php:142
+msgid "If the field is empty the user will be redirected to the homepage."
+msgstr "Ha ez a mező üres, a felhasználó a kezdőlapra lesz irányítva."
+
+#: admin/sw-ajax-login-admin-permalinks.php:52
+msgid "Custom pages"
+msgstr "Egyéni oldalak"
+
+#: admin/sw-ajax-login-admin-permalinks.php:58
+msgid ""
+"StranoWeb Ajax Login will automatically create login, register, forgot "
+"password, reset password and logout pages. You can modify these pages "
+"according to your needs."
+msgstr ""
+"StranoWeb Ajax Login automatikusan létrehozza a bejelentkezés, regisztráció, "
+"jelszó emlékeztető, jelszó visszaállitó és kijelentkezés oldalakat. "
+"Módosíthatod ezeket az oldalakat szükseg szerint."
+
+#: admin/sw-ajax-login-admin-permalinks.php:64
+msgid "Please read carefully"
+msgstr "Kérjük, olvassa el figyelmesen"
+
+#: admin/sw-ajax-login-admin-permalinks.php:65
+msgid ""
+"StranoWeb Ajax Login have created all the necessary login, register, forgot "
+"password, reset password and logout pages."
+msgstr ""
+"StranoWeb Ajax Login létrehozta a  szükséges bejelentkezés, regisztráció, "
+"jelszó emlékeztető, jelszó visszaállitó és kijelentkezés oldalakat."
+
+#: admin/sw-ajax-login-admin-permalinks.php:68
+msgid ""
+"You can modify these pages according to your needs, just be sure \"login page"
+"\" contains one of the two SWAL Login shortcodes, otherwise you won't be "
+"able to login to your website!"
+msgstr ""
+"Módosíthatod ezeket az oldalakat szükseg szerint, ebben az esetben a "
+"\"bejelentkezés oldalnak\" tartalmaznia kell egy SWAL Login rövidkódot a "
+"kettő közül, különben nem tudsz majd belejentkezni az oldalra!"
+
+#: admin/sw-ajax-login-admin-permalinks.php:71
+msgid ""
+"We suggest during test phase to work with 2 different browsers and stay "
+"logged on one of them while you are working on the other one."
+msgstr ""
+"Azt ajánljuk a teszt időszakban, hogy 2 különböző böngészővel tesztelj és "
+"marajd bejelentkezve az egyikben, míg a másikban dolgozol."
+
+#: admin/sw-ajax-login-admin-permalinks.php:77
+msgid "Login page"
+msgstr "Bejelentkezési oldal"
+
+#: admin/sw-ajax-login-admin-permalinks.php:94
+msgid "Register page"
+msgstr "Regisztráció oldal"
+
+#: admin/sw-ajax-login-admin-permalinks.php:111
+msgid "Forgot password page"
+msgstr "Elfelejtett jelszó oldal"
+
+#: admin/sw-ajax-login-admin-permalinks.php:128
+msgid "Reset password page"
+msgstr "Jelszó visszaállítás oldal"
+
+#: admin/sw-ajax-login-admin-permalinks.php:145
+msgid "Logout page"
+msgstr "Kijelentkezés oldal"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:55
+msgid "Add reCAPTCHA"
+msgstr "reCaptcha hozzáadása"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:57
+msgid ""
+"reCAPTCHA helps to avoid spam users registration, we reccomend to use it."
+msgstr ""
+"A reCaptcha segít megelőzni a spam regisztrációkat, javasoljuk a használatát."
+
+#: admin/sw-ajax-login-admin-recaptcha.php:64
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:65
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:77
+msgid "v2 Website Key"
+msgstr "v2 weboldal kulcs"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:81
+msgid "v2 Secret Key"
+msgstr "v2 titkos kulcs"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:85
+msgid "Theme"
+msgstr "Sablon"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:89
+msgid "Light"
+msgstr "Világos"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:90
+msgid "Dark"
+msgstr "Sötét"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:101
+msgid "v3 Website Key"
+msgstr "v3 weboldal kulcs"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:105
+msgid "v3 Secret Key"
+msgstr "v3 titkos kulcs"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:109
+msgid "Threshold"
+msgstr "Határérték"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:115
+msgid ""
+"Lower than 0.5 = Easier for bots to register, Higher than 0.5 = harder for "
+"bots, but may block some real users. We suggest to leave at 0.5 then check "
+"your Google console for fine tuning."
+msgstr ""
+"Alacsonyabb, mint 0,5 = könnyebben a botoknak regisztrálni; Magasabb, mint "
+"0,5 = nehezebb a botoknak, de letilthat néhány valódi felhasználót is. "
+"Javasoljuk, hogy hagyd a 0,5 értéken, majd ellenőrizze a Google konzolt a "
+"finomhangoláshoz."
+
+#: admin/sw-ajax-login-admin-recaptcha.php:121
+msgid "How to get reCaptcha keys"
+msgstr "Hogyan juthatsz reCaptcha kulcsokhoz"
+
+#: admin/sw-ajax-login-admin-recaptcha.php:125
+msgid "Login into your Google account and go to "
+msgstr "Jelentkezz be a Google fiókba, és menj a "
+
+#: admin/sw-ajax-login-admin-recaptcha.php:127
+msgid "Find and click the 'Get Recaptcha' button in the upper-right corner."
+msgstr ""
+"Keresd meg és kattints a jobb felső sarokban lévő Recaptcha beszerzése "
+"gombra."
+
+#: admin/sw-ajax-login-admin-recaptcha.php:128
+msgid ""
+"In the 'Register a new site' section, enter a label in the 'Label' box, and "
+"the URL for your site, without with http://. E.X. – example.com in the "
+"Domains box. Click the Register button."
+msgstr ""
+"Az Új webhely regisztrálása részben írj be egy címkét a Címke mezőbe, és a "
+"honlap címét, a http: // nélkül. Pl. - pelda.hu a Domainek mezőben. Kattints "
+"a Regisztráció gombra."
+
+#: admin/sw-ajax-login-admin-recaptcha.php:129
+msgid ""
+"You should now see your new site key and secret key. Copy and add to the "
+"settings above."
+msgstr ""
+"Most látnod kell az új webhelykulcsot és a titkos kulcsot. Másold és add "
+"hozzá a fenti beállításokhoz."
+
+#: admin/sw-ajax-login-admin-redirects.php:77
+msgid "Redirects"
+msgstr "Átirányítások"
+
+#: admin/sw-ajax-login-admin-redirects.php:80
+msgid "After login redirect to:"
+msgstr "Átirányítás a bejelentkezést követően:"
+
+#: admin/sw-ajax-login-admin-redirects.php:85
+#: admin/sw-ajax-login-admin-redirects.php:108
+msgid "Homepage"
+msgstr "Kezdőlap"
+
+#: admin/sw-ajax-login-admin-redirects.php:86
+#: admin/sw-ajax-login-admin-redirects.php:109
+msgid "Same page"
+msgstr "Azonos oldal"
+
+#: admin/sw-ajax-login-admin-redirects.php:87
+#: admin/sw-ajax-login-admin-redirects.php:110
+msgid "Custom page"
+msgstr "Egyéni oldal"
+
+#: admin/sw-ajax-login-admin-redirects.php:88
+msgid "Admin dashboard"
+msgstr "Irányítópult"
+
+#: admin/sw-ajax-login-admin-redirects.php:96
+#: admin/sw-ajax-login-admin-redirects.php:118
+#: admin/sw-ajax-login-admin-redirects.php:140
+msgid "Insert page to redirect"
+msgstr "Átirányítás oldala"
+
+#: admin/sw-ajax-login-admin-redirects.php:103
+msgid "After logout redirect to:"
+msgstr "Átirányítás a kijelentkezést követően:"
+
+#: admin/sw-ajax-login-admin-redirects.php:125
+msgid "Login page -> If already logged in:"
+msgstr "Belépés oldal-> ha már bejelentkezett:"
+
+#: admin/sw-ajax-login-admin-redirects.php:130
+msgid "Show \"User already logged in\" message"
+msgstr "A \"felhasználó már bejelentkezett\" üzenet megjelenítése"
+
+#: admin/sw-ajax-login-admin-redirects.php:132
+msgid "Redirect to custom page"
+msgstr "Átirányítás az egyéni oldalra"
+
+#: admin/sw-ajax-login-admin-redirects.php:142
+msgid ""
+"You can set up the action to do if an already logged in user lands on Login, "
+"Register or Forgot Password page."
+msgstr ""
+"Beállíthatod, hogy mi történjen, ha a bejelentkezett felhasználó a Belépés, "
+"Regisztráció vagy elfelejtett jelszó oldalakra téved."
+
+#: admin/sw-ajax-login-admin-redirects.php:149
+msgid "Redirect to login page not logged-in users"
+msgstr "Nem bejelentkezett felhasználók átirányítása a bejelentkező oldalra"
+
+#: admin/sw-ajax-login-admin-redirects.php:151
+msgid "Not logged in users will be always redirected to login page."
+msgstr ""
+"Nem belépett felhasználók, mindig a bejelentkezési oldalra való irányítása."
+
+#: admin/sw-ajax-login-admin-redirects.php:158
+msgid "WordPress admin dashboard access"
+msgstr "WordPress irányítópult hozzáférés"
+
+#: admin/sw-ajax-login-admin-redirects.php:164
+msgid "Restrict WordPress admin dashboard to users with certain roles"
+msgstr "WordPress irányítópult korlátozása a felhasználói szerepek alapján"
+
+#: admin/sw-ajax-login-admin-redirects.php:166
+msgid ""
+"You can restrict the access to WordPress admin dashboard to users with "
+"specific roles, the users with the other roles will be redirected to the "
+"homepage."
+msgstr ""
+"Korlátozhatod a hozzáférést a WordPress irányítópulthoz egyes felhasználói "
+"szerepköröknek, a nem jogosult felhasználók a kezdőoldalra lesznek "
+"átirányítva."
+
+#: admin/sw-ajax-login-admin-redirects.php:173
+msgid "Dashboard user access"
+msgstr "Irányítópult felhasználói hozzáférése"
+
+#: admin/sw-ajax-login-admin-redirects.php:177
+msgid "Administrators only"
+msgstr "Csak adminoknak"
+
+#: admin/sw-ajax-login-admin-redirects.php:178
+msgid "Administrators and Editors"
+msgstr "Adminisztrátorok és szerkesztők"
+
+#: admin/sw-ajax-login-admin-redirects.php:179
+msgid "Administrators, Editors and Authors"
+msgstr "Adminisztrátorok, szerkesztők és szerzők"
+
+#: admin/sw-ajax-login-admin-redirects.php:191
+msgid ""
+"Hide the admin bar for not allowed users to access WordPress admin dashboard"
+msgstr ""
+"WordPress adminsáv elrejtése azon felhasználóknak akik nem férhetnek a "
+"irányítópulthoz"
+
+#: admin/sw-ajax-login-admin-redirects.php:193
+msgid ""
+"This option hides the frontend admin bar on the top of the page to not "
+"allowed users to access WordPress admin dashboard."
+msgstr ""
+"Ez az opció elrejti az adminsávot a lap tetején, így a nem engedélyezett a "
+"felhasználók hozzáférését megakadályozza a WordPress irányítópulthoz."
+
+#: admin/sw-ajax-login-admin-redirects.php:200
+msgid "Permalink"
+msgstr "Közvetlen hivatkozás"
+
+#: admin/sw-ajax-login-admin-redirects.php:204
+msgid ""
+"Your permalink structure contains /index.php. It’s not search engine "
+"friendly & you are missing out the opportunity to rank higher in the search "
+"engine. We reccomend to remove it."
+msgstr ""
+"A közvetlen hivatkozás struktúra /index.php -t tartalmaz. Ez nem keresőmotor "
+"barátságos és a jobb keresési helyezést akadályozza. Javasoljuk, hogy "
+"távolítsd el ezt."
+
+#: admin/sw-ajax-login-admin-redirects.php:206
+#, php-format
+msgid ""
+"To fix it go to %s and click on Post name & save the permalink structure."
+msgstr ""
+"Ahhoz, hogy megjavítsd, menj a  %s oldalra és kattints a Közzététel gombra "
+"és mentsd el a közvetlen hivatkozás struktúrát."
+
+#: admin/sw-ajax-login-admin-redirects.php:206
+msgid "Settings> Permalink"
+msgstr "Beállítások > Követlen hivatkozás"
+
+#: admin/sw-ajax-login-admin-redirects.php:210
+msgid ""
+"SWAL replaces WordPress default login, registration and forgot password "
+"pages with its own modules. All SWAL ajax pages are also accessible via "
+"direct URL, you can customize the base to suit your needs."
+msgstr ""
+"A SWAL helyettesíti a WordPress alapértelmezett belépés, a regisztráció és "
+"elfelejtettem jelszó oldalakat a saját moduljaival. Minden SWAL ajax oldal "
+"elérhető közvetlen hivatkozással is, testreszabhatod az alap-előtagot "
+"igényeidnek megfelelően."
+
+#: admin/sw-ajax-login-admin-redirects.php:215
+msgid "Links to forms are: "
+msgstr "Az űrlapokra mutató hivatkozások: "
+
+#: admin/sw-ajax-login-admin-redirects.php:218
+msgid "You must assign the Login page!"
+msgstr "Hozzá kell rendelni a Bejelentkezés oldalt!"
+
+#: admin/sw-ajax-login-admin-redirects.php:219
+msgid "You must assign the Register page!"
+msgstr "Hozzá kell rendelni a Regisztráció oldalt!"
+
+#: admin/sw-ajax-login-admin-redirects.php:220
+msgid "You must assign the Forgot Password page!"
+msgstr "Hozzá kell rendelnie az Elfelejtett jelszó oldalt!"
+
+#: admin/sw-ajax-login-admin-redirects.php:221
+msgid "You must assign the Reset Password page!"
+msgstr "Hozzá kell rendelni az Jelszó visszaállítás oldalt!"
+
+#: admin/sw-ajax-login-admin-redirects.php:222
+msgid "You must assign the Logout page!"
+msgstr "Hozzá kell rendelni a Kijelentkezés oldalt!"
+
+#: admin/sw-ajax-login-admin-redirects.php:230
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: admin/sw-ajax-login-admin-redirects.php:240
+msgid "Custom base"
+msgstr "Egyedi bázis"
+
+#: admin/sw-ajax-login-admin-redirects.php:244
+msgid "Insert base"
+msgstr "Alap beszúrása"
+
+#: admin/sw-ajax-login-admin-redirects.php:245
+msgid "If the field is empty it will use the default permalink."
+msgstr ""
+"Ha a mező üres, akkor az alapértelmezett közvetlen hivatkozás struktúra lesz "
+"használva."
+
+#: admin/sw-ajax-login-admin-register-window.php:86
+#: includes/class-sw-ajax-login.php:699
+msgid "Register window"
+msgstr "Regisztráció ablak"
+
+#: admin/sw-ajax-login-admin-register-window.php:92
+msgid "Anyone can register"
+msgstr "Bárki regisztrálhat"
+
+#: admin/sw-ajax-login-admin-register-window.php:94
+msgid "By checking this option you enable new users registering on your site."
+msgstr ""
+"Ennek a lehetőségnek a bejelölésével engedélyezed az új felhasználók "
+"regisztrálását a webhelyen."
+
+#: admin/sw-ajax-login-admin-register-window.php:105
+msgid "Form type"
+msgstr "Űrlap típus"
+
+#: admin/sw-ajax-login-admin-register-window.php:108
+msgid "Show the input password fields"
+msgstr "Mutasd a jelszó mezőket"
+
+#: admin/sw-ajax-login-admin-register-window.php:109
+msgid ""
+"Don't show the input password fields, password will be automatically "
+"generated and sent on email"
+msgstr ""
+"Ne mutasd a jelszó mezőket, a jelszó automatikusan lesz generálva és "
+"emailben kiküldve"
+
+#: admin/sw-ajax-login-admin-register-window.php:120
+msgid "Registration instruction"
+msgstr "Regisztráció útmutatás"
+
+#: admin/sw-ajax-login-admin-register-window.php:122
+msgid "Insert here what user will receive after registration."
+msgstr "Írd be ide amit a felhasználó fog megkapni a regisztrácio után."
+
+#: admin/sw-ajax-login-admin-register-window.php:168
+msgid "Don't send email to user after registration"
+msgstr "Ne küldjön e-mailt a felhasználónak a regisztrációt követően"
+
+#: admin/sw-ajax-login-admin-register-window.php:170
+msgid ""
+"By enabling this option users won't receive the confirmation email from our "
+"plugin, this can be usefull if you are using a third party plugin for new "
+"user activation."
+msgstr ""
+"Ezen opcio aktiválásával a felhasználók nem fognak megerősítő emailt kapni a "
+"bővítménytől. Ez akkor értekes, ha egy harmadik féltől való bővítményt "
+"használsz az új felhasználó aktiválásához."
+
+#: admin/sw-ajax-login-admin-register-window.php:178
+#: admin/sw-ajax-login-admin-user.php:34
+msgid "GDPR consent"
+msgstr "GDPR hozzájárulás"
+
+#: admin/sw-ajax-login-admin-register-window.php:182
+msgid "Add GDPR consent checkbox"
+msgstr "GDPR hozzájárulás jelölőnégyzet hozzáadása"
+
+#: admin/sw-ajax-login-admin-register-window.php:184
+msgid ""
+"This option adds a mandatory checkbox for GDPR consent with a link to "
+"Privacy Policy page."
+msgstr ""
+"Ez a opció egy kötelező jelölőnégyzetet fog hozzáadni a GDPR "
+"hozzájáruláshoz, egy hivatkozással az Adatvédelmi irányelvek oldalra."
+
+#: admin/sw-ajax-login-admin-register-window.php:190
+msgid "GDPR consent text"
+msgstr "GDPR hozzájárulás szövege"
+
+#: admin/sw-ajax-login-admin-register-window.php:192
+msgid "Insert here the text to get user consent on form submition."
+msgstr ""
+"Írd be ide a szöveget, hogy űrlap beküldésnél megkapd a felhasználói "
+"hozzájárulást."
+
+#: admin/sw-ajax-login-admin-register-window.php:198
+msgid "Privacy page"
+msgstr "Adatkezelési oldal"
+
+#: admin/sw-ajax-login-admin-register-window.php:213
+msgid "A link to privacy page will be appended to the consent message."
+msgstr ""
+"Az adatvédelmi lapra mutató hivatkozás a hozzájárulási üzenethez fűzi hozzá."
+
+#: admin/sw-ajax-login-admin-register-window.php:216
+msgid "Link text"
+msgstr "Hivatkozás szöveg"
+
+#: admin/sw-ajax-login-admin-register-window.php:218
+msgid ""
+"Insert here privacy link text if you want it different from the page name."
+msgstr "Ird be ide az ASZF szoveget, ha mast akarsz az oldal nevetol."
+
+#: admin/sw-ajax-login-admin-register-window.php:227
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: admin/sw-ajax-login-admin-register-window.php:231
+msgid "Add icons to registration input fields"
+msgstr "Ikon hozzáadása a regisztráció beviteli mezőkbe"
+
+#: admin/sw-ajax-login-admin-register-window.php:233
+msgid ""
+"By enabling this option fontawesome icons will be added to new user "
+"registration input fields."
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, akkor a fontawesome ikonokat hozzáadjuk a "
+"regisztrációs mezőkhöz."
+
+#: admin/sw-ajax-login-admin-register-window.php:241
+msgid "Add Show/Hide password icon"
+msgstr "Jelszó hozzáadása/elrejtése ikon megjelenítése"
+
+#: admin/sw-ajax-login-admin-register-window.php:243
+msgid "Enable this option to add an icon to show/hide the password."
+msgstr ""
+"Aktivald ezt az opciót, hogy a jelszó mezőhöz egy mutatés/elrejtés ikon "
+"adódjon hozzá."
+
+#: admin/sw-ajax-login-admin-register-window.php:249
+msgid "Register background image"
+msgstr "Regisztráció háttérkép"
+
+#: admin/sw-ajax-login-admin-register-window.php:255
+msgid ""
+"The image the will appear as background on register popup if you have chosen "
+"the popup layout style with image"
+msgstr ""
+"A kép háttérként jelenik meg a regisztráció popupban, ha a popup képpel "
+"elrendezést választottad"
+
+#: admin/sw-ajax-login-admin-settings.php:17
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: admin/sw-ajax-login-admin-settings.php:44
+msgid "StranoWeb Ajax Login settings"
+msgstr "StranoWeb Ajax Login beállítások"
+
+#: admin/sw-ajax-login-admin-settings.php:57
+#: includes/class-sw-ajax-login.php:673
+msgid "Premium Version"
+msgstr "Prémium verzió"
+
+#: admin/sw-ajax-login-admin-settings.php:59 docs/sw-ajax-login-docs.php:18
+#: docs/sw-ajax-login-docs.php:28 docs/sw-ajax-login-premium.php:10
+#: docs/sw-ajax-login-premium.php:82 includes/class-sw-ajax-login.php:675
+msgid "Features"
+msgstr "Funkciók"
+
+#: admin/sw-ajax-login-admin-settings.php:126
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: admin/sw-ajax-login-admin-socials.php:85
+msgid "Login via Socials"
+msgstr "Közösségi bejelentkezés"
+
+#: admin/sw-ajax-login-admin-socials.php:91
+msgid "Add socials login"
+msgstr "Közösségi bejelentkezés hozzáadása"
+
+#: admin/sw-ajax-login-admin-socials.php:93
+msgid "This option enables login via socials."
+msgstr "Ez engedélyezi a közöségi belépést."
+
+#: admin/sw-ajax-login-admin-socials.php:100
+msgid "Social Icons position"
+msgstr "Közösségi ikon pozíció"
+
+#: admin/sw-ajax-login-admin-socials.php:105
+msgid "Below login button"
+msgstr "Belépés gomb alatt"
+
+#: admin/sw-ajax-login-admin-socials.php:106
+msgid "On top, before username and password fields"
+msgstr "Felül, felhasználónév és jelszó mezők előtt"
+
+#: admin/sw-ajax-login-admin-socials.php:107
+msgid "Between username and password fields and login button"
+msgstr "Felhasználónév és jelszó mezők és a belépés gomb között"
+
+#: admin/sw-ajax-login-admin-socials.php:108
+msgid "Inside image container"
+msgstr "Kép tárolóban"
+
+#: admin/sw-ajax-login-admin-socials.php:115
+msgid ""
+"This option set the position of social login icons, below login button, "
+"below input fields or inside the image container."
+msgstr ""
+"Beállítás a közösségi belépés ikonok helyzetéhez, belépés gomb alatt, "
+"beviteli mezők alatt vagy egy képben."
+
+#: admin/sw-ajax-login-admin-socials.php:127
+msgid "Replace Avatar image with social profile picture"
+msgstr "Avatar helyettesítése közösségi profil képpel"
+
+#: admin/sw-ajax-login-admin-socials.php:129
+msgid ""
+"By enabling this option Social profile picture will be shown instead of "
+"WordPress user avatar."
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, akkor közösségi profil képet mutatjuk a "
+"WordPress adatlapkép helyett."
+
+#: admin/sw-ajax-login-admin-socials.php:137
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/sw-ajax-login-admin-socials.php:140
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: admin/sw-ajax-login-admin-socials.php:144
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+#: admin/sw-ajax-login-admin-socials.php:148
+msgid "How to get Facebook API keys"
+msgstr "Hogyan juthatsz Facebook API kulcshoz"
+
+#: admin/sw-ajax-login-admin-socials.php:152
+msgid "Login into your Fb account and go to "
+msgstr "Jelentkezz be a Fb fiókodba és ment "
+
+#: admin/sw-ajax-login-admin-socials.php:154
+#: admin/sw-ajax-login-admin-socials.php:189
+msgid ""
+"Click on 'Add a New App' button. A popup will open. Enter the name of the "
+"app as you wish and your email, then click on 'Create New App ID' button."
+msgstr ""
+"Kattints az \"új alkalmazás hozzáadása\" gombra. Megnyílik egy felugró "
+"ablak. Add meg az alkalmazás nevét és az email címed, majd kattints az 'Új "
+"App ID létrehozása' gombra."
+
+#: admin/sw-ajax-login-admin-socials.php:155
+#, php-format
+msgid "You'll be redirected to the next page 'Select a product', choose %s."
+msgstr "Átirányítunk a következő oldalra Termék kiválasztása, %s választása."
+
+#: admin/sw-ajax-login-admin-socials.php:156
+#, php-format
+msgid "You have now to select the App platform, please click on %s."
+msgstr "Most válaszd ki az App platformot, klikkelj a %s-ra."
+
+#: admin/sw-ajax-login-admin-socials.php:157
+#, php-format
+msgid ""
+"Enter this website URL (see point 9 below) and click %s, ignore the "
+"following steps."
+msgstr ""
+"Írd be a honlap címét (lásd az alábbi 9. pontot), majd kattints a % s "
+"elemre, és hagyd figyelmen kívül a következő lépéseket."
+
+#: admin/sw-ajax-login-admin-socials.php:158
+#, php-format
+msgid "Click on %s on the left column menu."
+msgstr "Kattints a %s-re a bal oldali oszlop menüben."
+
+#: admin/sw-ajax-login-admin-socials.php:159
+msgid ""
+"In the landing page you will find the API version, App ID, App Secret. Copy "
+"the App ID and App Secret Key (click on 'Show' button) and enter them in our "
+"plugin settings above."
+msgstr ""
+"A céloldalon megtalálod az alábbiakat: API verzió, App ID, App titkos kulcs. "
+"Másold az App ID és az App titkos kulcsot (kattints a Mutat' gombra) és add "
+"meg a bővítmény beállításaiban fentebb."
+
+#: admin/sw-ajax-login-admin-socials.php:160
+#: admin/sw-ajax-login-admin-socials.php:194
+msgid "Important: "
+msgstr "Fontos: "
+
+#: admin/sw-ajax-login-admin-socials.php:160
+msgid ""
+"After that please go to 'App Review' link just below the alert link on the "
+"left column, there you will find an option to make the app public and select "
+"YES. This is very important otherwise your app will not work for all users."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:161
+#: admin/sw-ajax-login-admin-socials.php:191
+msgid "Site URL"
+msgstr "Weboldal URL"
+
+#: admin/sw-ajax-login-admin-socials.php:172 docs/sw-ajax-login-premium.php:135
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/sw-ajax-login-admin-socials.php:175
+msgid "Twitter App ID"
+msgstr "Twitter App ID"
+
+#: admin/sw-ajax-login-admin-socials.php:179
+msgid "Twitter App Secret"
+msgstr "Twitter App Secret"
+
+#: admin/sw-ajax-login-admin-socials.php:183
+msgid "How to get Twitter API keys"
+msgstr "Hogyan juthatsz Twitter API kulcsokhoz"
+
+#: admin/sw-ajax-login-admin-socials.php:187
+msgid "Login into your Twitter account and go to "
+msgstr "Jelentkezz be a Twitter fiókba, és menj a "
+
+#: admin/sw-ajax-login-admin-socials.php:190
+msgid ""
+"Enter your desired Application Name, Description and your website address "
+"(points 4 & 5) making sure to enter the full address including the http:// "
+"or https://."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:192
+msgid "Callback URL"
+msgstr "Visszacsatolási link"
+
+#: admin/sw-ajax-login-admin-socials.php:193
+msgid ""
+"After creating your Twitter Application click on the tab that says 'Keys and "
+"Access Tokens' and get Consumer key(API Key) and Consumer secret(API secret)."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:194
+msgid ""
+"To get the user's email address please go to app's 'permission' tab and in "
+"additional Permissions there you will find a checkbox to request for user "
+"email address. Please enable it. To enable it you need to enter privacy "
+"policy url and terms of service url."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:195
+msgid "Important 2: "
+msgstr "Fontos 2: "
+
+#: admin/sw-ajax-login-admin-socials.php:195
+msgid ""
+"Go to app's 'Settings' tab and make sure that the checkbox 'Enable Callback "
+"Locking' is unchecked."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:206
+msgid "Google"
+msgstr "Google"
+
+#: admin/sw-ajax-login-admin-socials.php:209
+msgid "ID client"
+msgstr "Felhasználói azonosító"
+
+#: admin/sw-ajax-login-admin-socials.php:213
+#: admin/sw-ajax-login-admin-socials.php:251
+#: includes/functions/functions-instagram-login.php:113
+msgid "Client secret"
+msgstr "Felhasználói titkos kulcs"
+
+#: admin/sw-ajax-login-admin-socials.php:217
+msgid "How to get Google API keys"
+msgstr "Hogyan juthatsz Google API kulcsokhoz"
+
+#: admin/sw-ajax-login-admin-socials.php:221
+msgid "Login into your Google+ account and go to "
+msgstr "Jelentkezz be a Google +-fiókba, és menj a "
+
+#: admin/sw-ajax-login-admin-socials.php:223
+msgid ""
+"From the project drop-down, select an existing project , or create a new one "
+"by selecting 'Create a new project'. "
+msgstr ""
+"Válasszon ki egy meglévő projektet a projekt legördülő menüből, vagy hozzon "
+"létre egy újat az \"új projekt létrehozása\" kiválasztásával. "
+
+#: admin/sw-ajax-login-admin-socials.php:224
+msgid ""
+"In order to enable the Google+ API service, in the list of Google APIs, "
+"search for the 'Google+ API service'."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:225
+msgid ""
+"Select Google+ API from the results list and press the Enable API button. "
+"Wait for the API to be enabled."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:226
+msgid ""
+"In the sidebar under 'APIs & Services', select 'Credentials', then select "
+"the OAuth consent screen tab."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:227
+msgid "Choose an Email Address, specify a Product Name, and press Save."
+msgstr ""
+"Válassz egy E-mail címet, add meg a termék nevét, majd nyomd meg a Mentést."
+
+#: admin/sw-ajax-login-admin-socials.php:228
+msgid ""
+"In the 'Credentials' tab, select the 'New credentials' drop-down list, and "
+"choose 'OAuth client ID'."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:229
+msgid ""
+"Under Application type, select 'Web application' and In the 'Authorized "
+"JavaScript origins' and 'Authorized redirect URI' fields, enter the origin "
+"for your app as follows:"
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:230
+msgid "Authorized JavaScript origins"
+msgstr "Engedélyezett JavaScript források"
+
+#: admin/sw-ajax-login-admin-socials.php:231
+msgid "Authorized redirect URI"
+msgstr "Engedélyezett átirányítási hivatkozás"
+
+#: admin/sw-ajax-login-admin-socials.php:232
+msgid "Press the 'Create' button."
+msgstr "Nyomd meg a ' létrehozás ' gombot."
+
+#: admin/sw-ajax-login-admin-socials.php:233
+msgid ""
+"From the resulting 'OAuth client' dialog box, copy the 'Client ID' and "
+"'Client secret'."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:244
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/sw-ajax-login-admin-socials.php:247
+#: includes/functions/functions-instagram-login.php:109
+msgid "Client ID"
+msgstr "Client ID"
+
+#: admin/sw-ajax-login-admin-socials.php:255
+msgid "How to get Linkedin API keys"
+msgstr "Hogyan juthatsz Linkedin API kulcsokhoz"
+
+#: admin/sw-ajax-login-admin-socials.php:259
+msgid "Login into your Linkedin account and go to "
+msgstr "Jelentkezz be a Linkedin fiókodba és menj "
+
+#: admin/sw-ajax-login-admin-socials.php:261
+#: includes/functions/functions-instagram-login.php:123
+msgid ""
+"If you have an existing application, select it to modify its settings, or "
+"create a new one by clicking 'Create Application'. "
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:262
+#: includes/functions/functions-instagram-login.php:124
+msgid "Fill all the compulsory fields, then click on 'Submit' button."
+msgstr "Töltsd ki a kötelező mezőket és utána kattints a Beküldés gombra."
+
+#: admin/sw-ajax-login-admin-socials.php:263
+#: includes/functions/functions-instagram-login.php:125
+msgid ""
+"On the new page 'Authentication' copy the Authentication Keys 'Client ID' "
+"and 'Client Secret' and add them to our plugin settings."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:264
+#: includes/functions/functions-instagram-login.php:126
+msgid ""
+"In 'Default Application Permissions' section check 'r_basicprofile' and "
+"'r_emailaddress'."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:266
+#: includes/functions/functions-instagram-login.php:128
+msgid ""
+"in 'OAuth 2.0' section add to 'Authorized Redirect URLs:' the URL you see at "
+"point 7."
+msgstr ""
+
+#: admin/sw-ajax-login-admin-socials.php:267
+#: includes/functions/functions-instagram-login.php:129
+msgid "Authorized redirect URLs"
+msgstr "Engedélyezett átirányítási hivatkozások"
+
+#: admin/sw-ajax-login-admin-socials.php:268
+#: includes/functions/functions-instagram-login.php:130
+msgid "Press the 'Update' button."
+msgstr "Nyomd meg a Frissítés gombot."
+
+#: admin/sw-ajax-login-admin-socials.php:291
+msgid "Add to WooCommerce login form"
+msgstr "Hozzáadás a WooCommerce bejelentkezési űrlaphoz"
+
+#: admin/sw-ajax-login-admin-socials.php:293
+msgid ""
+"This option adds Stranoweb Ajax Login native social login buttons to "
+"WooCommerce login form"
+msgstr ""
+"Ez az beállítás hozzáadja a Stranoweb Ajax Login közöségi bejelentkezés "
+"gombjait a WooCommerce bejelentkezési űrlaphoz"
+
+#: admin/sw-ajax-login-admin-socials.php:299
+msgid "Icons theme"
+msgstr "Ikonok téma"
+
+#: admin/sw-ajax-login-admin-socials.php:302
+msgid "Theme 1"
+msgstr "1. téma"
+
+#: admin/sw-ajax-login-admin-socials.php:303
+msgid "Theme 2"
+msgstr "2. téma"
+
+#: admin/sw-ajax-login-admin-socials.php:304
+msgid "Theme 3"
+msgstr "3. téma"
+
+#: admin/sw-ajax-login-admin-socials.php:305
+msgid "Theme 4"
+msgstr "4. téma"
+
+#: admin/sw-ajax-login-admin-socials.php:306
+msgid "Theme 5"
+msgstr "5. téma"
+
+#: admin/sw-ajax-login-admin-socials.php:318
+msgid "Login with Facebook"
+msgstr "Facebook belépés"
+
+#: admin/sw-ajax-login-admin-socials.php:327
+msgid "Login with Twitter"
+msgstr "Twitter belépés"
+
+#: admin/sw-ajax-login-admin-socials.php:336
+#: includes/functions/functions-social-login-buttons.php:95
+#: includes/functions/functions-social-login-buttons.php:98
+msgid "Sign in with Google"
+msgstr "Google belépés"
+
+#: admin/sw-ajax-login-admin-socials.php:345
+msgid "Login with Linkedin"
+msgstr "Linkedin belépés"
+
+#: admin/sw-ajax-login-admin-user.php:39
+msgid "User gives GDPR consent"
+msgstr "A felhasználó megadta a GDPR hozzájárulást"
+
+#: admin/sw-ajax-login-admin-user.php:41
+msgid "User doesn't give GDPR consent"
+msgstr "A felhasználó nem adott meg GDPR hozzájárulást"
+
+#: admin/sw-ajax-login-admin-user.php:60
+msgid "Consent"
+msgstr "Hozzájárulás"
+
+#: admin/sw-ajax-login-admin-user.php:85
+msgid "GDPR"
+msgstr "GDPR"
+
+#: docs/sw-ajax-login-docs.php:15
+msgid "StranoWeb Ajax Login Documentation"
+msgstr "StranoWeb Ajax Login dokumentáció"
+
+#: docs/sw-ajax-login-docs.php:19 docs/sw-ajax-login-docs.php:51
+msgid "How to"
+msgstr "Hogyan"
+
+#: docs/sw-ajax-login-docs.php:20 docs/sw-ajax-login-docs.php:85
+msgid "Shortcodes"
+msgstr "Rövidkódok"
+
+#: docs/sw-ajax-login-docs.php:30
+msgid ""
+"is a modal popup (but not only) that replaces the default WordPress login, "
+"register and lost password forms and comes with a lot of amazing features:"
+msgstr ""
+"egy popup ablak, ami helyettesíti a WordPress alapértelmezett bejelentkezés, "
+"regisztrácio es elveszett jelszó űrlapjait és sok hihetetlen funkciója van, "
+"mint pl.:"
+
+#: docs/sw-ajax-login-docs.php:32
+msgid ""
+"Ajax modal popup for login, register, lost password and logout. Same "
+"functions are working even on non-popup mode and without javascript."
+msgstr ""
+"Ajax popup ablak belépéshez, regisztrációhoz, elfelejtett jelszóhoz és "
+"kilépéshez. Néhány funkció popup és javascript nélkül is működik."
+
+#: docs/sw-ajax-login-docs.php:33
+msgid "Fully customizable login, register, lost password and logout popups."
+msgstr ""
+"Teljesen testreszabható bejelentkezés, regisztráció, elveszett jelszó és "
+"kijelentkezés popupok."
+
+#: docs/sw-ajax-login-docs.php:34
+msgid "Form fields validation."
+msgstr "Űrlapmezők érvényesítése."
+
+#: docs/sw-ajax-login-docs.php:35
+msgid ""
+"Different popup layouts with image and text over image (more layouts to "
+"come)."
+msgstr ""
+"Különböző popup ablak elrendezések képpel és kép a szöveg felett (hamarosan "
+"több elrendezés is jön)."
+
+#: docs/sw-ajax-login-docs.php:36
+msgid "Optional custom css setting."
+msgstr "Opcionális egyéni CSS beállítás."
+
+#: docs/sw-ajax-login-docs.php:37
+msgid ""
+"Social logins (facebook, twitter and google+, more to come) with several "
+"icon styles and position displacement."
+msgstr ""
+"Közösségi bejelentkezés (facebook, twitter es google+, hamarosan több közul "
+"is választhatsz) több ikon stílussal es hely megadással."
+
+#: docs/sw-ajax-login-docs.php:38
+msgid ""
+"Logged in Menu item: Once the user is logged in the plugin adds a menu item "
+"to the selected menu with optional user thumbnail and additional submenu. "
+"Thumbnail style, menu item text and submenu are fully customizable."
+msgstr ""
+"Bejelentkezett menüelem: Bejelentkezett felhasználó esetén a bővítmény egy "
+"menüelemet ad a kijelölt menühöz opcionális felhasználói miniatűrrel és "
+"további almenüvel. A miniatűr stílusa, a menüelem szövege és az almenü "
+"teljesen testreszabható."
+
+#: docs/sw-ajax-login-docs.php:39
+msgid "Customizable redirects and permalink."
+msgstr "Testreszabható átirányítások és közvetlen hivatkozások."
+
+#: docs/sw-ajax-login-docs.php:40
+msgid ""
+"WordPress admin dashboard access restriction to users with specific roles."
+msgstr "WordPress irányítópult korlátozása a felhasználói szerepek alapján."
+
+#: docs/sw-ajax-login-docs.php:41
+msgid "Password length, you can choose the minimum length required."
+msgstr "Jelszó hossza, megadhatod a szükséges minimális hosszúságot."
+
+#: docs/sw-ajax-login-docs.php:42
+msgid "Optional reCaptcha for new user registration form."
+msgstr "Opcionális reCaptcha a regisztrációs űrlaphoz."
+
+#: docs/sw-ajax-login-docs.php:43
+msgid "New user registration can be disabled."
+msgstr "Az új felhasználó regisztrációja letiltható."
+
+#: docs/sw-ajax-login-docs.php:44
+msgid "Styled Forgot password email."
+msgstr "Formázott elfelejtett jelszó email."
+
+#: docs/sw-ajax-login-docs.php:54
+#, php-format
+msgid "For the full 'How to' guide please visit %s."
+msgstr "A \"Hogyan kell\" útmutatóhoz kérjük, látogasd meg a következőt %s."
+
+#: docs/sw-ajax-login-docs.php:57
+msgid "Add submenu to logged in menu item"
+msgstr "Almenü hozzáadása a belépett menüelemhez"
+
+#: docs/sw-ajax-login-docs.php:59
+msgid ""
+"With StranoWeb Ajax Login you can add a custom submenu to the user menu "
+"item, follow the steps below:"
+msgstr ""
+"A StranoWeb Ajax Login hozzá tud adni saját almenüt a felhasználo "
+"menüelemekhez. Kövesd a következé lépéseket:"
+
+#: docs/sw-ajax-login-docs.php:62
+msgid "Step 1"
+msgstr "1. lépés"
+
+#: docs/sw-ajax-login-docs.php:63
+msgid "Step 2"
+msgstr "2. lépés"
+
+#: docs/sw-ajax-login-docs.php:66
+msgid "Step 3"
+msgstr "3. lépés"
+
+#: docs/sw-ajax-login-docs.php:68
+msgid "Step 4"
+msgstr "4. lépés"
+
+#: docs/sw-ajax-login-docs.php:69
+msgid ""
+"You are now on 'Menu Structure' section, add menu items from the column on "
+"the left."
+msgstr ""
+"Most a \"Menü struktúra\" részben vagy, ahol menüelemeket adhatsz hozzá a "
+"bal oldali oszlopból."
+
+#: docs/sw-ajax-login-docs.php:74
+msgid "Step 5"
+msgstr "5. lépés"
+
+#: docs/sw-ajax-login-docs.php:75
+#, php-format
+msgid "Make sure that %s checkbox on 'Menu Settings' section is checked."
+msgstr ""
+"Ellenőrizzük, hogy a (z) %s jelölőnégyzet be van-e jelölve a Menübeállítások "
+"részben."
+
+#: docs/sw-ajax-login-docs.php:87
+msgid ""
+"StranoWeb Ajax Login comes with several shortcodes that can be used to "
+"insert content inside posts and pages."
+msgstr ""
+"StranoWeb Ajax Login több rövidkódot is tartalmaz, amit beszúrhatsz a "
+"bejegyzéseknél és oldalaknál."
+
+#: docs/sw-ajax-login-docs.php:89
+msgid "Shows social login buttons."
+msgstr "Közösségi bejelentkezés gombok mutatása."
+
+#: docs/sw-ajax-login-docs.php:90
+msgid "Shows Login, Register, Forgot Password forms in the same page."
+msgstr ""
+"Belépés, Rregisztráció, Elfelejtett jelszó űrlapok azonos oldalon való "
+"mutatása."
+
+#: docs/sw-ajax-login-docs.php:91
+msgid "Shows Login form."
+msgstr "Belépés űrlap mutatása."
+
+#: docs/sw-ajax-login-docs.php:92
+msgid "Shows Register form."
+msgstr "Regisztrációs űrlapot mutatja."
+
+#: docs/sw-ajax-login-docs.php:93
+msgid "Shows Forgot Password form."
+msgstr "Az elfelejtett jelszó űrlap megjelenítése."
+
+#: docs/sw-ajax-login-docs.php:94
+msgid "Shows Reset Password form."
+msgstr "Jelszó visszaállítás űrlap mutatása."
+
+#: docs/sw-ajax-login-docs.php:95
+msgid "Shows Logout form."
+msgstr "Kijelentkezés űrlapot mutatja."
+
+#: docs/sw-ajax-login-premium.php:8
+msgid "Premium Features"
+msgstr "Prémium funkciók"
+
+#: docs/sw-ajax-login-premium.php:17
+msgid "Fully customizable responsive popups"
+msgstr "Teljesen testreszabható reszponzív felugró ablakok"
+
+#: docs/sw-ajax-login-premium.php:18
+msgid "Stranoweb Ajax Login Pro"
+msgstr "StranoWeb Ajax Login Pro"
+
+#: docs/sw-ajax-login-premium.php:18
+msgid ""
+"replaces the default WordPress login, register and lost password forms with "
+"beautiful ajax modal popups and comes with a lot of amazing features.\n"
+"It’s fully customizable, responsive, includes several social logins and "
+"allows to disable new user registration or restrict WordPress admin "
+"dashboard to certain user rules."
+msgstr ""
+"helyettesíti az alapértelmezett WordPress bejelentkezés, regisztráció és "
+"elveszett jelszó űrlapot egy gyönyörű ajax felugró ablakkal és rengeteg "
+"hihetetlen funkciót tartalmaz. Teljesen testreszabható, reszponzív, több "
+"közösségi bejelentkezést tartalmaz és lehetséges, hogy deaktiváld új "
+"felhasználók regisztrációját vagy korlátozhatod a WordPress irányítópult "
+"megjelenítését bizonyos felhasználói szerepköröknek."
+
+#: docs/sw-ajax-login-premium.php:28
+msgid "Several different layout models"
+msgstr "Több különböző elrendezési modell"
+
+#: docs/sw-ajax-login-premium.php:29
+msgid ""
+"You can customize your forms as you like adding images, changing background, "
+"text and buttons color, and if you're one who likes to get your hands dirty "
+"you can add your custom css."
+msgstr ""
+"Testreszabhatod az űrlapokat, képeket adhatsz hozzá, megváltoztathatod a "
+"háttér, a szöveg és a gombok színét, és ha szereted bepiszkolni a kezed, "
+"akkor a az egyéni css-t is megadhatsz."
+
+#: docs/sw-ajax-login-premium.php:38
+msgid "Improve customer acquisition with social logins"
+msgstr "Növeld az ügyfélszerzést a közösségi belépésekkel"
+
+#: docs/sw-ajax-login-premium.php:39
+msgid ""
+"Social Login makes it easier for visitors to your site to become customers "
+"by using their existing social media credentials to register on your site. "
+msgstr ""
+"A közösségi bejelentkezés megkönnyíti a látogatók regisztrációját, azzal, "
+"hogy a meglévő közösségi oldalak belépési adataival tehetikk ezt meg . "
+
+#: docs/sw-ajax-login-premium.php:40
+msgid ""
+"With Stranoweb Ajax Login, you can easily add some of the most popular "
+"social logins to login form, even on WooCommerce login form."
+msgstr ""
+"Stranoweb Ajax Login használatával könnyedén hozzáadhatod a népszerű "
+"közöségi bejelentkezés gombokat a bejelentkezési vagy akár a WooCommerce "
+"bejelentkezési űrlaphoz."
+
+#: docs/sw-ajax-login-premium.php:49
+msgid "Restrict access to WordPress admin dashboard"
+msgstr "WordPress irányítópult hozzáférés korlátozása"
+
+#: docs/sw-ajax-login-premium.php:50
+msgid ""
+"On some websites you may want that only users with specific roles can access "
+"to the WordPress Admin Dashboard; with Stranoweb Ajax Login WordPress Plugin "
+"you can easily manage who can access to the dashboard."
+msgstr ""
+"Néhány oldalon lehetőség van beallítani, hogy bizonyos felhasználók bizonyos "
+"szerepkörben kapjanak elérhetőséget a WordPress irányítópultjához; Stranoweb "
+"Ajax Login WordPress bővítménnyel könnyen tudod menedzselni, hogy ki fér "
+"hozzá az irányítópulthoz."
+
+#: docs/sw-ajax-login-premium.php:59
+msgid "Create a custom submenu for logged in users"
+msgstr "Egyéni almenü létrehozása a bejelentkezett felhasználók számára"
+
+#: docs/sw-ajax-login-premium.php:60
+msgid ""
+"With StranoWeb Ajax Login you can add your custom submenu to the user menu "
+"item, very usefull when you want to group all the user related links in one "
+"place. The logout item will be automatically added as the last submenu item."
+msgstr ""
+"A StranoWeb Ajax Login hozzá tudja adni a testreszabott almenüdet a "
+"felhasználói menüelemekhez. Ez akkor értékes, ha csoportosítani akarod a "
+"felhasználói hivatkozásokat egy helyen. A kijelentkezés elem automatikusan "
+"hozzá lesz adva az utolsó almenüelemhez."
+
+#: docs/sw-ajax-login-premium.php:88
+msgid "Free"
+msgstr "Ingyenes"
+
+#: docs/sw-ajax-login-premium.php:89
+msgid "Premium"
+msgstr "Prémium"
+
+#: docs/sw-ajax-login-premium.php:94
+msgid "Ajax modal popup for login, registration, forgot password and logout"
+msgstr ""
+"Ajax popup ablak belépéshez, regisztrációhoz, elfelejtett jelszóhoz és "
+"kilépéshez"
+
+#: docs/sw-ajax-login-premium.php:95 docs/sw-ajax-login-premium.php:96
+#: docs/sw-ajax-login-premium.php:100 docs/sw-ajax-login-premium.php:101
+#: docs/sw-ajax-login-premium.php:110 docs/sw-ajax-login-premium.php:111
+#: docs/sw-ajax-login-premium.php:116 docs/sw-ajax-login-premium.php:120
+#: docs/sw-ajax-login-premium.php:121 docs/sw-ajax-login-premium.php:126
+#: docs/sw-ajax-login-premium.php:131 docs/sw-ajax-login-premium.php:145
+#: docs/sw-ajax-login-premium.php:146 docs/sw-ajax-login-premium.php:150
+#: docs/sw-ajax-login-premium.php:151 docs/sw-ajax-login-premium.php:155
+#: docs/sw-ajax-login-premium.php:156 docs/sw-ajax-login-premium.php:161
+#: docs/sw-ajax-login-premium.php:166 docs/sw-ajax-login-premium.php:171
+#: docs/sw-ajax-login-premium.php:176 docs/sw-ajax-login-premium.php:181
+#: docs/sw-ajax-login-premium.php:186 docs/sw-ajax-login-premium.php:190
+#: docs/sw-ajax-login-premium.php:191 docs/sw-ajax-login-premium.php:196
+msgid "Yes"
+msgstr "Igen"
+
+#: docs/sw-ajax-login-premium.php:99
+msgid "Form fields validation"
+msgstr "Űrlapmezők érvényesítése"
+
+#: docs/sw-ajax-login-premium.php:104
+msgid "Popup layouts"
+msgstr "Popup elrendezések"
+
+#: docs/sw-ajax-login-premium.php:109
+msgid "GDPR compliant"
+msgstr "GDPR kompatibilis"
+
+#: docs/sw-ajax-login-premium.php:114
+msgid "Custom overlay"
+msgstr "Egyéni átfedés"
+
+#: docs/sw-ajax-login-premium.php:115 docs/sw-ajax-login-premium.php:125
+#: docs/sw-ajax-login-premium.php:130 docs/sw-ajax-login-premium.php:160
+#: docs/sw-ajax-login-premium.php:165 docs/sw-ajax-login-premium.php:170
+#: docs/sw-ajax-login-premium.php:175 docs/sw-ajax-login-premium.php:180
+#: docs/sw-ajax-login-premium.php:185 docs/sw-ajax-login-premium.php:195
+msgid "No"
+msgstr "Nem"
+
+#: docs/sw-ajax-login-premium.php:119
+msgid "Customizable CSS"
+msgstr "Testreszabható CSS"
+
+#: docs/sw-ajax-login-premium.php:124
+msgid "Logo upload"
+msgstr "Logó feltöltés"
+
+#: docs/sw-ajax-login-premium.php:129
+msgid "Custom login menu item text"
+msgstr "Egyéni bejelentkezési menüelem szövege"
+
+#: docs/sw-ajax-login-premium.php:134
+msgid "Social logins"
+msgstr "Közösségi bejelentkezések"
+
+#: docs/sw-ajax-login-premium.php:136
+msgid "Facebook, Twitter, Google, Linkedin"
+msgstr "Facebook, Twitter, Google, LinkedIn"
+
+#: docs/sw-ajax-login-premium.php:139
+msgid "Social icons themes"
+msgstr "Közösségi ikon témák"
+
+#: docs/sw-ajax-login-premium.php:144
+msgid "Customizable redirects and permalink"
+msgstr "Testreszabható átirányítások és közvetlen hivatkozások"
+
+#: docs/sw-ajax-login-premium.php:149
+msgid "reCAPTCHA v2 and reCAPTCHA v3 for new user registration"
+msgstr "reCAPTCHA v2 és reCAPTCHA v3 a regisztrációhoz"
+
+#: docs/sw-ajax-login-premium.php:154
+msgid "Shortcode support on text editors"
+msgstr "Rövidkód támogatás a szövegszerkesztőkben"
+
+#: docs/sw-ajax-login-premium.php:159
+msgid "Customizable texts"
+msgstr "Testreszabható szövegek"
+
+#: docs/sw-ajax-login-premium.php:164
+msgid "Option to redirect not logged in users to login form"
+msgstr ""
+"Beállítás a nem bejelentkezett felhasználók átirányításához a bejelentkezési "
+"űrlapra"
+
+#: docs/sw-ajax-login-premium.php:169
+msgid "WordPress admin dashboard restriction"
+msgstr "WordPress irányítópult korlátozás"
+
+#: docs/sw-ajax-login-premium.php:174
+msgid "Show/Hide password icon"
+msgstr "Mutatja/Elrejti a jelszó ikont"
+
+#: docs/sw-ajax-login-premium.php:179
+msgid "Disallow new user registration"
+msgstr "Új felhasználó regisztrációjának tiltása"
+
+#: docs/sw-ajax-login-premium.php:184
+msgid "Disable automatic login for new user after registration"
+msgstr ""
+"Automatikus bejelentkezés tiltása új felhasználónak a regisztrációt követően"
+
+#: docs/sw-ajax-login-premium.php:189
+msgid "Styled emails"
+msgstr "Formázott emailek"
+
+#: docs/sw-ajax-login-premium.php:194
+msgid "Customizable emails"
+msgstr "Testreszabható e-mailek"
+
+#: docs/sw-ajax-login-premium.php:203
+msgid "Upgrade to the Premium version"
+msgstr "Prémium verzióra váltás"
+
+#: includes/class-sw-ajax-login.php:264
+msgid "I consent collecting and storing my data from this form."
+msgstr "Hozzájárulok az adataim gyűjtéséhez és tárolásához erről az űrlapról."
+
+#: includes/class-sw-ajax-login.php:265
+msgid "Privacy Policy"
+msgstr "Adatvédelmi irányelv"
+
+#: includes/class-sw-ajax-login.php:266
+msgid ""
+"Registration completed successfully! Please check your email for email "
+"verification."
+msgstr ""
+"A regisztráció sikeresen befejeződött! Kérjük, ellenőrizd emailjeidet a "
+"megerősítésért."
+
+#: includes/class-sw-ajax-login.php:267
+msgid "Registration confirmation will be emailed to you."
+msgstr "A regisztráció megerősítését e-mailben küldjük el."
+
+#: includes/class-sw-ajax-login.php:269
+msgid "LOGIN"
+msgstr "BEJELENTKEZÉS"
+
+#: includes/class-sw-ajax-login.php:270
+msgid "New to site?"
+msgstr "Új az oldalon?"
+
+#: includes/class-sw-ajax-login.php:271
+msgid "Create an Account"
+msgstr "Fiók létrehozása"
+
+#: includes/class-sw-ajax-login.php:272
+msgid "Lost password?"
+msgstr "Elfelejtetted a jelszavad?"
+
+#: includes/class-sw-ajax-login.php:273
+msgid "Signup"
+msgstr "Regisztráció"
+
+#: includes/class-sw-ajax-login.php:274
+msgid "SIGNUP"
+msgstr "REGISZTRÁCIÓ"
+
+#: includes/class-sw-ajax-login.php:275
+msgid "Already have an account?"
+msgstr "Van már fiókod?"
+
+#: includes/class-sw-ajax-login.php:277
+msgid "Forgot Password?"
+msgstr "Elfelejtett jelszó?"
+
+#: includes/class-sw-ajax-login.php:278
+msgid "SUBMIT"
+msgstr "BEVITEL"
+
+#: includes/class-sw-ajax-login.php:279
+msgid "Back in mind?"
+msgstr "Vissza"
+
+#: includes/class-sw-ajax-login.php:343
+msgid "Sending user info, please wait..."
+msgstr "Felhasználói információk küldése, kérem várjon..."
+
+#: includes/class-sw-ajax-login.php:344
+msgid "Logging out, please wait..."
+msgstr "Kijelentkezés, kérlek várj..."
+
+#: includes/class-sw-ajax-login.php:346
+msgid "Authorization failed."
+msgstr "Sikertelen azonosítás."
+
+#: includes/class-sw-ajax-login.php:347
+msgid "Something Went Wrong!"
+msgstr "Hiba történt!"
+
+#: includes/class-sw-ajax-login.php:401
+msgid "Set as background"
+msgstr "Beállítás háttérként"
+
+#: includes/class-sw-ajax-login.php:402
+msgid "Select image"
+msgstr "Kép kiválasztása"
+
+#: includes/class-sw-ajax-login.php:403
+msgid "Do you want to remove the image?"
+msgstr "Biztos, hogy el akarod távolítani a képet?"
+
+#: includes/class-sw-ajax-login.php:543
+msgid "SW Ajax Login User Menu"
+msgstr "SW Ajax Login felhasználói menü"
+
+#: includes/class-sw-ajax-login.php:608
+msgid "Settings"
+msgstr "Beállítások"
+
+#: includes/class-sw-ajax-login.php:679
+msgid "Appearence"
+msgstr "Megjelenés"
+
+#: includes/class-sw-ajax-login.php:687
+msgid "Social Login"
+msgstr "Közösségi bejelentkezés"
+
+#: includes/class-sw-ajax-login.php:691
+msgid "Redirects & Permalink"
+msgstr "Átirányítások és közvetlen hivatkozás"
+
+#: includes/class-sw-ajax-login.php:752
+msgid "Some tags may not be replaced in this preview."
+msgstr ""
+"Előfordulhat, hogy néhány címke nincs helyettesítve ebben az előnézetben."
+
+#: includes/functions/functions-adds-on-logo.php:20
+msgid "Custom Logo"
+msgstr "Egyéni Logó"
+
+#: includes/functions/functions-adds-on-logo.php:26
+msgid "You can add a logo to the forms, it will appear before the forms title"
+msgstr ""
+"Hozzá tudsz adni egy logót az űrlapokhoz, a logó az űrlap címe előtt fog "
+"megjelenni"
+
+#: includes/functions/functions-email-templates.php:214
+msgid "You have received this email because you are a member of"
+msgstr "Ezt az e-mailt azért kaptad, mert felhasználónk vagy"
+
+#: includes/functions/functions-email-templates.php:298
+#: includes/functions/functions-email-templates.php:339
+msgid "Welcome to {SITE_NAME}"
+msgstr "Üdvözöljük a {SITE_NAME} oldalon"
+
+#: includes/functions/functions-email-templates.php:299
+#: includes/functions/functions-email-templates.php:340
+msgid "Your username is:"
+msgstr "A felhasználóneved:"
+
+#: includes/functions/functions-email-templates.php:300
+#: includes/functions/functions-email-templates.php:342
+#: includes/functions/functions-email-templates.php:458
+msgid "To login to the website please go to: "
+msgstr "Bejelentkezéshez kérlek menj: "
+
+#: includes/functions/functions-email-templates.php:301
+#: includes/functions/functions-email-templates.php:343
+#: includes/functions/functions-email-templates.php:389
+#: includes/functions/functions-email-templates.php:459
+msgid "Warm regards"
+msgstr "Szívélyes üdvözlettel"
+
+#: includes/functions/functions-email-templates.php:341
+msgid "Your password is:"
+msgstr "A jelszavad:"
+
+#: includes/functions/functions-email-templates.php:383
+#: includes/functions/functions-email-templates.php:455
+msgid "Password Reset"
+msgstr "Új jelszó igénylése"
+
+#: includes/functions/functions-email-templates.php:384
+msgid "Hello {FIRST_NAME}!"
+msgstr "Kedves {FIRST_NAME}!"
+
+#: includes/functions/functions-email-templates.php:385
+msgid "You asked us to reset your password for your account."
+msgstr "Jelszóvisszaállítást kértél a fiókodhoz."
+
+#: includes/functions/functions-email-templates.php:386
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"Ha véletlenül, vagy egyáltalán nem kértél jelszó visszaállítást, akkor hagy "
+"figyelmen kívül levelünket, semmi sem fog történni."
+
+#: includes/functions/functions-email-templates.php:387
+msgid "To reset your password, visit the following address:"
+msgstr "A jelszó megváltoztatásához látogasson el a következő címre:"
+
+#: includes/functions/functions-email-templates.php:456
+msgid "Hello {FIRST_NAME},"
+msgstr "Kedves {FIRST_NAME},"
+
+#: includes/functions/functions-email-templates.php:457
+msgid "Your new password is:"
+msgstr "Az új jelszavad:"
+
+#: includes/functions/functions-facebook-login.php:32
+msgid "Graph returned an error: "
+msgstr "A Graph hibát adott vissza: "
+
+#: includes/functions/functions-facebook-login.php:40
+msgid "Facebook SDK returned an error: "
+msgstr "Facebook SDK hibát ad vissza: "
+
+#: includes/functions/functions-facebook-login.php:49
+msgid "No cookie set or no OAuth data could be obtained from cookie."
+msgstr ""
+
+#: includes/functions/functions-forms.php:390
+#: includes/functions/functions-forms.php:544
+msgid "You are already logged in."
+msgstr "Már bejelentkeztél."
+
+#: includes/functions/functions-forms.php:460
+msgid "Your password has been changed. You can sign in now."
+msgstr "A jelszavad módosítva lett. Most már bejelentkezhetsz."
+
+#: includes/functions/functions-forms.php:641
+#: includes/functions/functions-forms.php:642
+#: includes/functions/functions-forms.php:1339
+#: includes/functions/functions-forms.php:1340
+msgid "Username or Email"
+msgstr "Felhasználónév vagy Email"
+
+#: includes/functions/functions-forms.php:648
+#: includes/functions/functions-forms.php:649
+#: includes/functions/functions-forms.php:1026
+#: includes/functions/functions-forms.php:1027
+msgid "Password"
+msgstr "Jelszó"
+
+#: includes/functions/functions-forms.php:691
+msgid "Remember me"
+msgstr "Emlékezz rám"
+
+#: includes/functions/functions-forms.php:768
+#: includes/functions/functions-forms.php:907
+msgid "You are already registered and logged in."
+msgstr "Már regisztráltál és bejelentkeztél."
+
+#: includes/functions/functions-forms.php:1010
+#: includes/functions/functions-forms.php:1011
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions/functions-forms.php:1036
+#: includes/functions/functions-forms.php:1037
+msgid "Confirm Password"
+msgstr "Jelszó megerősítése"
+
+#: includes/functions/functions-forms.php:1147
+#: includes/functions/functions-forms.php:1278
+#: includes/functions/functions-forms.php:1399
+msgid ""
+"You are already logged in, to recover your password you have first to logout."
+msgstr ""
+"Már bejelentkeztél, jelszóvisszaállításhoz először ki kell jelentkezned."
+
+#: includes/functions/functions-forms.php:1405
+msgid "Sorry, you need a valid key and login."
+msgstr "Sajnálom, érvényes kulcsra van szükség a bejelentkezéshez."
+
+#: includes/functions/functions-forms.php:1426
+msgid "Sorry, that key has expired. Please try again."
+msgstr "Sajnáljuk, a kulcs érvényessége lejárt. Kérlek próbálkozz később."
+
+#: includes/functions/functions-forms.php:1428
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Sajnáljuk, úgy tűnik, hogy a kulcs nem érvényes."
+
+#: includes/functions/functions-forms.php:1465
+#: includes/functions/functions-forms.php:1466
+msgid "New password"
+msgstr "Új jelszó"
+
+#: includes/functions/functions-forms.php:1469
+#: includes/functions/functions-forms.php:1470
+msgid "Confirm new password"
+msgstr "Új jelszó megerősítése"
+
+#: includes/functions/functions-forms.php:1477
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Tipp: A jelszó legalább hét karakter hosszú legyen. Ahhoz, hogy minél "
+"erősebb legyen, használjunk kis- és nagybetűket, számokat és olyan "
+"szimbólumokat is, mint a ! \"? $ % ^ &amp; )."
+
+#: includes/functions/functions-forms.php:1479
+#, php-format
+msgid "Hint: The password has to be at least %d characters long. "
+msgstr "Tipp: a jelszónak legalább %d karakter hosszúnak kell lennie. "
+
+#: includes/functions/functions-forms.php:1480
+msgid ""
+"To make it stronger, use upper and lower case letters, numbers, and symbols "
+"like ! \" ? $ % ^ &amp; )."
+msgstr ""
+"Ahhoz, hogy minél erősebb legyen, használjunk kis- és nagybetűket, számokat "
+"és olyan szimbólumokat is, mint a ! \"? $ % ^ &amp; )."
+
+#: includes/functions/functions-forms.php:1584
+msgid "LOGOUT"
+msgstr "KIJELENTKEZÉS"
+
+#: includes/functions/functions-forms.php:1584
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: includes/functions/functions-instagram-login.php:106
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/functions/functions-instagram-login.php:117
+msgid "How to get Instagram API keys"
+msgstr "Hogyan juthatsz Instagram API kulcsokhoz"
+
+#: includes/functions/functions-instagram-login.php:121
+msgid "Login into your Instagram account and go to "
+msgstr "Jelentkezz be a Instagram fiókodba és menj "
+
+#: includes/functions/functions-instagram-login.php:152
+msgid "Login with Instagram"
+msgstr "Instagram belépés"
+
+#: includes/functions/functions-instagram-login.php:178
+#: includes/functions/functions-instagram-login.php:181
+msgid "Sign in with Instagram"
+msgstr "Instagram belépés"
+
+#: includes/functions/functions-social-login-buttons.php:55
+#: includes/functions/functions-social-login-buttons.php:58
+msgid "Sign in with Facebook"
+msgstr "Facebook belépés"
+
+#: includes/functions/functions-social-login-buttons.php:73
+#: includes/functions/functions-social-login-buttons.php:76
+msgid "Sign in with Twitter"
+msgstr "Twitter belépés"
+
+#: includes/functions/functions-social-login-buttons.php:120
+#: includes/functions/functions-social-login-buttons.php:123
+msgid "Sign in with Linkedin"
+msgstr "Linkedin belépés"
+
+#: includes/functions/functions-social-login-buttons.php:159
+#: includes/functions/functions-social-login-buttons.php:172
+msgid "or"
+msgstr "vagy"
+
+#: includes/functions/functions.php:36
+msgid "Logout successful, redirecting..."
+msgstr "Sikeres kijelentkezés, átírányítás..."
+
+#: includes/functions/functions.php:127 includes/functions/functions.php:198
+msgid " successful, redirecting..."
+msgstr " sikeres, átirányítás..."
+
+#: includes/functions/functions.php:142
+msgid " successful"
+msgstr " sikeres"
+
+#: includes/functions/functions.php:286
+msgid "You have to enter a valid email address."
+msgstr "Érvényes e-mail címet adj meg."
+
+#: includes/functions/functions.php:289 includes/functions/functions.php:560
+#, php-format
+msgid "Password must be at least %d characters long."
+msgstr "Tipp: a jelszónak legalább %d karakter hosszúnak kell lennie."
+
+#: includes/functions/functions.php:294
+msgid "reCAPTCHA error"
+msgstr "reCaptcha hiba"
+
+#: includes/functions/functions.php:298
+msgid "You have to agree to the use of your personal data"
+msgstr "Bele kell egyezned, hogy a személyes adataidat használjuk"
+
+#: includes/functions/functions.php:302 includes/functions/functions.php:568
+msgid "The passwords do not match."
+msgstr "A jelszavak nem egyeznek meg."
+
+#: includes/functions/functions.php:338
+msgid "This username is already registered."
+msgstr "Ez a Felhasználónév már regisztrálva van."
+
+#: includes/functions/functions.php:340
+msgid "This email address is already registered."
+msgstr "Ez az e-mail cím már regisztrálva van."
+
+#: includes/functions/functions.php:368
+#, php-format
+msgid "[%s] New user %s registered."
+msgstr "[ %s]  %s új felhasználó regisztrálva."
+
+#: includes/functions/functions.php:386 includes/functions/functions.php:388
+msgid "Registration"
+msgstr "Regisztráció"
+
+#: includes/functions/functions.php:443
+msgid "Enter an username or e-mail address."
+msgstr "Adj meg egy felhasználónevet vagy e-mail címet."
+
+#: includes/functions/functions.php:449
+msgid "There is no user registered with that email address."
+msgstr "Nincs ilyen felhasználó regisztrálva ezzel az e-mail címmel."
+
+#: includes/functions/functions.php:455
+msgid "There is no user registered with that username."
+msgstr "Nincs regisztrált felhasználó ezzel a felhasználónévvel."
+
+#: includes/functions/functions.php:458
+msgid "Invalid username or e-mail address."
+msgstr "Érvénytelen felhasználónév-vagy e-mail cím."
+
+#: includes/functions/functions.php:469
+msgid "Your new password"
+msgstr "Az új jelszavad"
+
+#: includes/functions/functions.php:485
+msgid "Check your email address for your new password."
+msgstr "A jelszót e-mailben kapod majd meg."
+
+#: includes/functions/functions.php:487
+msgid "System is unable to send you mail containg your new password."
+msgstr "Rendszer nem tudja elküldeni a levelet az új jelszavaddal."
+
+#: includes/functions/functions.php:554
+msgid "Password is required field"
+msgstr "A jelszó kitöltése kötelező"
+
+#: includes/functions/functions.php:580
+msgid "Your have reset your password"
+msgstr "A jelszó alaphelyzetbe állítása"
+
+#: includes/functions/functions.php:596
+msgid "Your password has been reset. Redirecting to login."
+msgstr ""
+"Jelszavad alaphelyzetbe lett állítása. Átirányítása a bejelentkezéshez."
+
+#: includes/functions/functions.php:632
+msgid "Top Left"
+msgstr "Balra fent"
+
+#: includes/functions/functions.php:633
+msgid "Top Center"
+msgstr "Középen fent"
+
+#: includes/functions/functions.php:634
+msgid "Top Right"
+msgstr "Jobbra fent"
+
+#: includes/functions/functions.php:635
+msgid "Middle Left"
+msgstr "Balközép"
+
+#: includes/functions/functions.php:636
+msgid "Middle Center"
+msgstr "Középre"
+
+#: includes/functions/functions.php:637
+msgid "Middle Right"
+msgstr "Jobbközép"
+
+#: includes/functions/functions.php:638
+msgid "Bottom Left"
+msgstr "Bal alul"
+
+#: includes/functions/functions.php:639
+msgid "Bottom Center"
+msgstr "Középen alul"
+
+#: includes/functions/functions.php:640
+msgid "Bottom Right"
+msgstr "Jobb alul"
+
+#: includes/functions/functions.php:740
+#, php-format
+msgid "Page %s"
+msgstr "Oldal: %s"
+
+#: includes/functions/functions.php:803
+msgid "Sorry, new user registration is not allowed..."
+msgstr "Sajnos az új felhasználó regisztrációja nem engedélyezett..."
+
+#: includes/functions/functions.php:846 includes/functions/functions.php:873
+#: includes/functions/functions.php:887
+msgid "Login successful, redirecting..."
+msgstr "Sikeres bejelentkezés, átirányítunk ..."
+
+#: sw-ajax-login.php:41
+msgid "Nearly there"
+msgstr "Majdnem ott"
+
+#: sw-ajax-login.php:41
+#, php-format
+msgid ""
+"In order to activate <strong>StranoWeb Ajax Login Premium</strong>, you need "
+"to deactivate and delete the old StranoWeb Ajax Login Free version plugin on "
+"the %splugins page%s"
+msgstr ""
+"Ahhoz, hogy aktiválva legyen a <strong>StranoWeb Ajax Login Premium</"
+"strong>, deaktiválnod es törölnöd kell a régi StranoWeb Ajax Login Free "
+"verzió bővítményt a  %splugins page%s  oldalon"
